@@ -1,0 +1,52 @@
+% $HeadURL: https://sbgn.svn.sourceforge.net/svnroot/sbgn/trunk/documents/specifications/EntityRelationship/Level1/sources/submap.tex $
+\color{red}
+\section{Glyph: \glyph{Submap}}
+\label{sec:submap}
+
+A \glyph{submap} is used to encapsulate processes and relationships (including all types of nodes and edges) within one glyph.  The submap hides its content to the users, and display only input terminals (or ports), linked to \glyph{ENs} (\sect{ENs}).  A submap is not equivalent to an omitted transition (see \sect{omitted}).  In the case of an SBGN diagram that is made available through a software tool, the content of a submap may be available to the tool.  A user could then ask the tool to expand the submap, for instance by clicking on the icon for the submap.  The tool might then expand and show the submap within the same diagram (on the same canvas), or it might open it in a different canvas.
+
+\begin{glyphDescription}
+
+\glyphSboTerm To be determined.
+
+\glyphContainer The \glyph{submap} is represented as a square box.
+
+\glyphLabel The identification of the \glyph{submap} is carried by an unbordered box containing a string of characters.  The characters may be distributed on several lines to improve readability, although this is not mandatory.  The label box has to be attached to the center of the container box.
+
+\glyphAux A \glyph{submap} carries labeled terminals.  When the submap is represented folded, those terminals are linked to external \glyph{ENs} (\sect{ENs}).  In the unfolded view, exposing the internal structure of the submap, a set of \glyph{tags} point to the corresponding internal \glyph{ENs}.
+
+\end{glyphDescription}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.22]{images/submap}
+  \caption{The \ER glyph for \glyph{submap}. (Upper part) folded submap. (Lower part) content of the submap.}
+  \label{fig:submap}
+\end{figure}
+
+\fig{submap-folded} represents a \glyph{submap} that transforms glucose into fructose-6-phosphate. The \glyph{submap} carries four terminals to ENs.  Note that the terminals do not define a ``direction'', such as input or output.  The flux of the reactions is determined by the context.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.4]{examples/submap-folded}
+  \caption{Example of a submap with contents elided.}
+  \label{fig:submap-folded}
+\end{figure}
+
+The diagram in \fig{submap-unfolded} represents an unfolded version of a submap.  Here, anything outside the submap has disappeared, and the internal \glyph{tags} are not linked to the corresponding external \glyph{terminals}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.35]{examples/submap-dissociated}
+  \caption{Example of an unfolded submap. The unfolded submap corresponds to the folded submap of \fig{submap-folded}.}
+  \label{fig:submap-unfolded}
+\end{figure}
+
+
+\normalcolor
+
+% The following is for [X]Emacs users.  Please leave in place.
+% Local Variables:
+% TeX-master: "../sbgn_ER-level1"
+% End:
+
