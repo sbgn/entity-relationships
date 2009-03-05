@@ -66,14 +66,14 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.37360847"
-     inkscape:cx="1095.7059"
-     inkscape:cy="110.54828"
+     inkscape:zoom="2.1134487"
+     inkscape:cx="883.98874"
+     inkscape:cy="370.80483"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="1052.3622px"
      height="744.09448px"
-     inkscape:window-width="1024"
+     inkscape:window-width="993"
      inkscape:window-height="744"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -204,7 +204,7 @@
          id="tspan3158"
          x="95.594025"
          y="181.91582"
-         style="font-size:14px">Entity Nodes</tspan></text>
+         style="font-size:14px">Interactors</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -275,7 +275,7 @@
            y="137.98447"
            x="129.11815"
            id="tspan16320"
-           sodipodi:role="line">physical entity</tspan></text>
+           sodipodi:role="line">entity</tspan></text>
     </g>
     <g
        id="g7108"
@@ -423,14 +423,18 @@
        sodipodi:nodetypes="cccc" />
     <text
        id="text20805"
-       y="435.88766"
+       y="429.88766"
        x="880.04047"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
-         y="435.88766"
+         y="429.88766"
          x="880.04047"
          id="tspan20807"
-         sodipodi:role="line">trigger</tspan></text>
+         sodipodi:role="line">necessary </tspan><tspan
+         y="444.88766"
+         x="880.04047"
+         sodipodi:role="line"
+         id="tspan2543">stimulation</tspan></text>
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 855.85828,372.09448 L 780,372.09448"
@@ -589,14 +593,18 @@
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        id="text2769"
-       y="493.98251"
+       y="489.98251"
        x="880.04047"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
-         y="493.98251"
+         y="489.98251"
          x="880.04047"
          id="tspan2771"
-         sodipodi:role="line">blocker</tspan></text>
+         sodipodi:role="line">absolute</tspan><tspan
+         y="504.98251"
+         x="880.04047"
+         sodipodi:role="line"
+         id="tspan2545">inhibition</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        id="path2773"
