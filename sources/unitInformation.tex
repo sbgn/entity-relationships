@@ -1,5 +1,3 @@
-% $HeadURL: https://sbgn.svn.sourceforge.net/svnroot/sbgn/trunk/documents/specifications/EntityRelationship/Level1/sources/unitInformation.tex $
-
 \color{red}
 
 \subsection{Glyph: \glyph{Unit of information}}
@@ -11,21 +9,20 @@ When representing biological entities, it is often necessary to convey some abst
 
 \glyphSboTerm Not applicable.
 
-\glyphContainer A unit of information is represented by a rectangle.  The long side of the rectangle should be oriented parallel to the border of the \glyph{EN} being annotated by the \glyph{unit of information}. The center of the bounding box of a \glyph{state of information} should be located on the mid-line of the border of the \glyph{EN}.
+\glyphContainer A unit of information is represented by a rectangle.  The long side of the rectangle should be oriented parallel to the border of the \glyph{entity} being annotated by the \glyph{unit of information}. The center of the bounding box of a \glyph{state of information} should be located on the mid-line of the border of the \glyph{entity}.
 
 \glyphLabel A \glyph{unit of information} is identified by a label placed in an unbordered box containing a string of characters.  The characters can be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the center of the container.  The label may spill outside of the container.
 
-The label defines the information carried by the \glyph{unit of information}.  For certain predefined types of information having controlled vocabularies associated with them, SBGN defines specific prefixes that must be included in the label to indicate the type of information in question.  The controlled vocabularies predefined in \SBGNPDLone are described in \sect{CVs} and summarized in the following list:
+The label defines the information carried by the \glyph{unit of information}.  For certain predefined types of information having controlled vocabularies associated with them, SBGN defines specific prefixes that must be included in the label to indicate the type of information in question.  The controlled vocabularies predefined in \SBGNERLone are described in \sect{CVs} and summarized in the following list:
 
 \begin{center}
   \begin{itemize}\setlength{\parskip}{0ex}
-  \item[\texttt{pc}] container physical characteristic
   \item[\texttt{mt}] entity material type
   \item[\texttt{ct}] entity conceptual type
   \end{itemize}
 \end{center}
 
-\glyphAux A \glyph{unit of information} does not carry any auxiliary items.  
+\glyphAux A \glyph{unit of information} does not carry any auxiliary items.
 
 \end{glyphDescription}
 
@@ -37,10 +34,3 @@ The label defines the information carried by the \glyph{unit of information}.  F
 \end{figure}
 
 \normalcolor
-
-% The following is for [X]Emacs users.   Please leave in place.
-% Local Variables:
-% TeX-master: "../sbgn_ER-level1"
-% End:
-
-
