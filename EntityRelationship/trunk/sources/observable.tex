@@ -1,4 +1,3 @@
-% $HeadURL: https://sbgn.svn.sourceforge.net/svnroot/sbgn/trunk/documents/specifications/EntityRelationship/Level1/sources/observable.tex $
 
 \color{red}
 
@@ -12,7 +11,7 @@ processes in a diagram, SBGN defines the \glyph{observable} glyph.
 
 \begin{glyphDescription}
 
-\glyphSboTerm SBO:0000358 ! observable
+\glyphSboTerm SBO:0000358 ! process that affects an observable
 
 \glyphContainer An \glyph{observable} is represented by an elongated
 hexagon, as illustrated in \fig{observable}.
@@ -23,9 +22,9 @@ distributed on several lines to improve readability, although this is not
 mandatory.  The label box must be attached to the center of the
 \glyph{observable} container.  The label may spill outside of the container.
 
-\glyphAux An \glyph{observable} may carry a \glyph{clone marker}
-(\sect{cloneMarker}).
+\textbf{DISCUSSION POINT HERE}
 
+\glyphAux It is proposed that an \glyph{observable} glyph would stand as a short-hand for an entity representing the thing we measure, carrying a state variable existence (\sect{existence}). An \glyph{observable} would therefore be different than the other entities because modulatory arcs would directly connect to it, while none would origin from it.
 \end{glyphDescription}
  
 \begin{figure}[H]
