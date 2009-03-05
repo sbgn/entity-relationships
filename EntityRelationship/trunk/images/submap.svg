@@ -64,16 +64,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.77353741"
-     inkscape:cx="651.78199"
-     inkscape:cy="193.04637"
+     inkscape:cx="518.57576"
+     inkscape:cy="399.14767"
      inkscape:document-units="px"
-     inkscape:current-layer="g3248"
+     inkscape:current-layer="layer2"
      width="1052.3622px"
      height="744.09448px"
-     inkscape:window-width="1680"
-     inkscape:window-height="995"
+     inkscape:window-width="993"
+     inkscape:window-height="744"
      inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-y="0"
      showguides="true"
      inkscape:guide-bbox="true"
      showgrid="true">
@@ -148,16 +148,11 @@
        x="159.6422"
        y="207.87895"
        id="text3753"><tspan
-         sodipodi:role="line"
-         x="159.6422"
-         y="207.87895"
-         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         id="tspan3755">EPN</tspan><tspan
          id="tspan3757"
          sodipodi:role="line"
          x="159.6422"
-         y="252.87895"
-         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1">or CN</tspan></text>
+         y="207.87895"
+         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1">EN</tspan></text>
     <path
        sodipodi:type="arc"
        style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#969696;stroke-width:1.9218898;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -289,16 +284,11 @@
        x="851.88434"
        y="132.17627"
        id="text5191"><tspan
-         sodipodi:role="line"
-         x="851.88434"
-         y="132.17627"
-         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         id="tspan5193">EPN</tspan><tspan
          id="tspan5195"
          sodipodi:role="line"
          x="851.88434"
-         y="177.17627"
-         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1">or CN</tspan></text>
+         y="132.17627"
+         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1">EN</tspan></text>
     <path
        sodipodi:type="arc"
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#969696;stroke-width:1.92188978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -319,16 +309,11 @@
        x="851.88434"
        style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
-         id="tspan5213"
-         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         y="286.17627"
-         x="851.88434"
-         sodipodi:role="line">EPN</tspan><tspan
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
          y="331.17627"
          x="851.88434"
          sodipodi:role="line"
-         id="tspan5215">or CN</tspan></text>
+         id="tspan5215">EN</tspan></text>
     <path
        transform="matrix(-1.6393825,0,0,1.4862958,1128.9124,-134.40511)"
        d="M 257.14285 290.52304 A 86.428574 47.857143 0 1 1  84.285706,290.52304 A 86.428574 47.857143 0 1 1  257.14285 290.52304 z"
@@ -349,16 +334,11 @@
        x="302.41107"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
-         id="tspan5223"
-         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         y="545.02362"
-         x="302.41107"
-         sodipodi:role="line">EPN</tspan><tspan
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
          y="590.02362"
          x="302.41107"
          sodipodi:role="line"
-         id="tspan5225">or CN</tspan></text>
+         id="tspan5225">EN</tspan></text>
     <path
        transform="matrix(-1.6393825,0,0,1.4862958,579.43909,124.44222)"
        d="M 257.14285 290.52304 A 86.428574 47.857143 0 1 1  84.285706,290.52304 A 86.428574 47.857143 0 1 1  257.14285 290.52304 z"
@@ -375,16 +355,11 @@
        x="768.27502"
        y="463.03516"
        id="text5229"><tspan
-         sodipodi:role="line"
-         x="768.27502"
-         y="463.03516"
-         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         id="tspan5231">EPN</tspan><tspan
          id="tspan5233"
          sodipodi:role="line"
          x="768.27502"
          y="508.03516"
-         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1">or CN</tspan></text>
+         style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1">EN</tspan></text>
     <path
        sodipodi:type="arc"
        style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#969696;stroke-width:1.92188978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -405,12 +380,12 @@
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
          y="627.49219"
          x="768.27502"
-         sodipodi:role="line">EPN</tspan><tspan
+         sodipodi:role="line">EN</tspan><tspan
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
          y="672.49219"
          x="768.27502"
          sodipodi:role="line"
-         id="tspan5241">or CN</tspan></text>
+         id="tspan5241" /></text>
     <path
        transform="matrix(-1.6393825,0,0,1.4862958,1045.303,206.91081)"
        d="M 257.14285,290.52304 A 86.428574,47.857143 0 1 1 84.285706,290.52304 A 86.428574,47.857143 0 1 1 257.14285,290.52304 z"
@@ -450,5 +425,15 @@
            style="fill:#969696;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       </g>
     </g>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2457"
+       style="fill:black;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:12px"><flowRegion
+         id="flowRegion2459"><rect
+           id="rect2461"
+           width="23.269722"
+           height="51.710491"
+           x="325.77609"
+           y="532.08148" /></flowRegion><flowPara
+         id="flowPara2463"></flowPara></flowRoot>  </g>
 </svg>
