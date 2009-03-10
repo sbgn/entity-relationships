@@ -1,0 +1,31 @@
+\chapter{Entity Relationship diagram grammar}
+\label{chp:grammar}
+
+\section{Overview}
+
+In this chapter, we describe how the glyphs of \SBGNERLone can be combined
+to make a valid \ER{} diagram. To do this, we must at the very least
+define what glyphs can be connected to each other. This is called
+syntax. Next, we must define rules over and above connection rules,
+such as whether duplicate symbols are permitted. In addition, we must define what the notation ``means'' --- how does it represent a body of biological knowledge? This is semantics, and it is essential if a reader is to understand an SBGN diagram without external help, and a writer is to create one that reflects his understanding of a biological system.
+
+In this section we start off by describing the concepts of the
+\ER{} notation. Next a detailed description of the syntax is provided
+followed by a description of the syntactic rules of the notation.
+
+\section{Concepts}
+
+The SBGN \ER{} language is more than a collection of symbols. It is a
+visual language that uses specific abstractions to describe the
+biological processes that make up a quantitative model, a signalling pathway or a metabolic network. This abstraction is the semantics of SBGN, and to describe it requires more than a definition
+of the symbols and syntax of the language. We first need to define the
+abstractions we are using.
+
+SBGN \ERs{} describe biological interactions involving biological entities. An \glyph{interactor} (\sect{interactors}), such as a molecule, influences the behaviour of other \glyph{interactor} via a relationships. 
+
+It may be convenient to think of a SBGN \ERs{} as listing independent rules that decribe influences between interactors. Diagram can then be analysed with ``what if?'' queries. 
+
+\input{sources/syntax.tex}
+
+\input{sources/semantics.tex}
+
