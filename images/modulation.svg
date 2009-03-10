@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:cc="http://web.resource.org/cc/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -12,23 +12,13 @@
    height="744.09448"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.45.1"
    version="1.0"
    sodipodi:docbase="/home/lenov/SBGN/svn/sbgn/trunk/documents/specifications/ProcessDiagram/Level1/images"
    sodipodi:docname="modulation.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/images/modulation.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300">
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 372.04724 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="1052.3622 : 372.04724 : 1"
-       inkscape:persp3d-origin="526.18109 : 248.03149 : 1"
-       id="perspective26" />
     <marker
        inkscape:stockid="TriangleInL"
        orient="auto"
@@ -125,9 +115,9 @@
      inkscape:current-layer="layer2"
      width="1052.3622px"
      height="744.09448px"
-     inkscape:window-width="993"
-     inkscape:window-height="744"
-     inkscape:window-x="0"
+     inkscape:window-width="1392"
+     inkscape:window-height="1022"
+     inkscape:window-x="280"
      inkscape:window-y="0"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -153,6 +143,15 @@
      id="layer2"
      inkscape:label="final"
      style="opacity:1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2176"
+       width="90"
+       height="70"
+       x="788"
+       y="255.09448"
+       rx="0"
+       ry="0" />
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 724.33521,290.05103 L 617.91921,290.05103"
@@ -160,19 +159,19 @@
     <text
        id="text2859"
        y="282.09448"
-       x="836.28571"
+       x="832.28571"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
-         id="tspan2863"
          style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
          y="282.09448"
-         x="836.28571"
-         sodipodi:role="line">TR node</tspan><tspan
+         x="832.28571"
+         id="tspan2861"
+         sodipodi:role="line">Target</tspan><tspan
+         id="tspan2863"
          style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
          y="312.09448"
-         x="836.28571"
-         sodipodi:role="line"
-         id="tspan2403">or arc</tspan></text>
+         x="832.28571"
+         sodipodi:role="line">TRN</tspan></text>
     <rect
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5.00000014;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2197"
@@ -181,9 +180,5 @@
        x="304.58832"
        y="718.97192"
        transform="matrix(0.7047511,-0.7094546,0.7094546,0.7047511,0,0)" />
-    <path
-       id="path2399"
-       d="M 779.12721,343.25903 L 779.12721,236.84303"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
 </svg>
