@@ -1,4 +1,4 @@
-% $HeadURL: https://sbgn.svn.sourceforge.net/svnroot/sbgn/trunk/documents/specifications/EntityRelationship/Level1/sources/glyphs.tex $
+
 
 \chapter{Entity Relationship Glyphs}
 
@@ -6,7 +6,7 @@
 
 This chapter provides a catalog of the graphical symbols available for representing entities in \ER diagrams.  There are different classes of glyphs corresponding to different classes of entities, predicates, controls and operators.
 
-%In \chap{grammar} beginning on page~\pageref{chp:grammar}, we describe the rules for combining these glyphs into a legal SBGN \ER, and in \chap{layout} beginning on page~\pageref{chp:layout}, we describe requirements and guidelines for the way that diagrams are visually organized.
+In \chap{grammar} beginning on page~\pageref{chp:grammar}, we describe the rules for combining these glyphs into a legal SBGN \ER, and in \chap{layout} beginning on page~\pageref{chp:layout}, we describe requirements and guidelines for the way that diagrams are visually organized.
 
 \section{Overview}
  
@@ -22,7 +22,7 @@ This chapter provides a catalog of the graphical symbols available for represent
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
- \section{Interactor nodes}\label{sec:ENs}
+ \section{Interactor nodes}\label{sec:interactors}
 
 \SBGNERLone{} contains four glyphs representing classes of interactors: \glyph{entity}, \glyph{perturbation}, \glyph{observable} and \glyph{outcome}. Entities can optionally carry auxiliary units such as \glyph{units of information} and \glyph{state variables}.
 
@@ -36,70 +36,42 @@ This chapter provides a catalog of the graphical symbols available for represent
 \input{sources/unitInformation.tex}
 \input{sources/stateVariable.tex}
 
-%\input{sources/complex-en-eg.tex}
- 
 %\input{sources/submap.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%                   Process nodes
+%%%%                   Relationship nodes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
-%\section{Process nodes}\label{sec:PNs}
+  
+\section{Relationships}\label{sec:relationships}
 
-%Process nodes represent processes that transform one or several ENs into one or several different ENs.
- 
-%\input{sources/transition.tex}
-%\input{sources/omitted.tex}
-%\input{sources/uncertain.tex}
+Relationship arcs are represent the influence of an entity on another relationship. The symbols attached to their extremities precise their semantics. \SBGNERLone's relationships can be viewed as logical rules linking interactors and other rules.
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%                  Arcs
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
-%\section{Connecting arcs}\label{sec:arcs}
+\input{sources/modulation.tex}
+\input{sources/stimulation.tex}
+\input{sources/inhibition.tex}
+\input{sources/necessaryStimulation.tex}
+\input{sources/absoluteInhibition.tex}
 
-%Connecting arcs are lines that link EPNs and PNs together. The symbols attached to their extremities precise their semantics.
- 
-% \input{sources/consumption.tex}
-% \input{sources/production.tex}
-% %\input{sources/truth.tex}
-% \input{sources/modulation.tex}
-% \input{sources/stimulation.tex}
-% \input{sources/catalysis.tex}
-% \input{sources/inhibition.tex}
-% \input{sources/trigger.tex}
-% \input{sources/logicArc.tex}
-% \input{sources/equivalenceArc.tex}
+\section{Statements}\label{sec:statements}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%                  Relashionships
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\question{NLN}{predicates? One is missing: the existence. Implicit}
 
-% \section{Relationships}\label{sec:relationships}
+\input{sources/assignment.tex}
+\input{sources/interaction.tex}
 
-% Assignment
-% Interaction
-% Self
-% 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %%%%                   Logical operators
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% \section{Logical operators}\label{sec:logic}
-% 
-% \input{sources/and.tex}
-% \input{sources/or.tex}
-% \input{sources/not.tex}
 
-
+\section{Logical operators}\label{sec:logic}
+ 
+\input{sources/and.tex}
+\input{sources/or.tex}
+\input{sources/not.tex}
 
 
 % The following is for [X]Emacs users.  Please leave in place.
