@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -12,13 +12,23 @@
    height="744.09448"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.45.1"
+   inkscape:version="0.46"
    version="1.0"
    sodipodi:docbase="/home/lenov/SBGN/svn/sbgn/trunk/documents/specifications/ProcessDiagram/Level1/images"
-   sodipodi:docname="trigger.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   sodipodi:docname="necessaryStimulation.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/images/necessaryStimulation.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 372.04724 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1052.3622 : 372.04724 : 1"
+       inkscape:persp3d-origin="526.18109 : 248.03149 : 1"
+       id="perspective2474" />
     <marker
        inkscape:stockid="TriangleInL"
        orient="auto"
@@ -109,18 +119,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="707.22341"
+     inkscape:cx="730.7925"
      inkscape:cy="481.63488"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      width="1052.3622px"
      height="744.09448px"
-     inkscape:window-width="1345"
-     inkscape:window-height="1022"
+     inkscape:window-width="993"
+     inkscape:window-height="744"
      inkscape:window-x="0"
      inkscape:window-y="0"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     showgrid="false">
     <sodipodi:guide
        orientation="vertical"
        position="301.42857"
@@ -147,8 +158,8 @@
        d="M 738.75891,291.06119 L 616.72394,291.06119"
        id="path2839" />
     <path
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 707.25254,322.71526 L 707.25254,259.03497"
+       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 707.25254,318.40252 L 707.25254,262.99056"
        id="path3522"
        sodipodi:nodetypes="cc" />
     <path
@@ -156,30 +167,20 @@
        d="M 758.38672,291.04352 L 717.36107,271.31651 L 717.32756,310.36737 L 758.38672,291.04352 z "
        id="path10304"
        sodipodi:nodetypes="cccc" />
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect2176"
-       width="90"
-       height="70"
-       x="778.07141"
-       y="256.23734"
-       rx="0"
-       ry="0" />
     <text
-       id="text5256"
-       y="283.23734"
-       x="822.35712"
+       id="text2468"
+       y="296.92361"
+       x="855.85101"
        style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
-         y="283.23734"
-         x="822.35712"
-         id="tspan5258"
-         sodipodi:role="line">Target</tspan><tspan
-         id="tspan5260"
-         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
-         y="313.23734"
-         x="822.35712"
-         sodipodi:role="line">TRN</tspan></text>
+         y="296.92361"
+         x="855.85101"
+         sodipodi:role="line"
+         id="tspan2424">statement</tspan></text>
+    <path
+       id="path2399"
+       d="M 774.69251,344.0882 L 774.69251,237.6722"
+       style="opacity:1;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
 </svg>
