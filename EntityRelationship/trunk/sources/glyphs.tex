@@ -40,10 +40,15 @@ In \chap{grammar} beginning on page~\pageref{chp:grammar}, we describe the rules
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%                   Relationship nodes
+%%%%                   Relationship arc
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
+\section{Statements}\label{sec:statements}
+
+\input{sources/assignment.tex}
+\input{sources/interaction.tex}
+
 \section{Relationships}\label{sec:relationships}
 
 Relationship arcs are represent the influence of an entity on another relationship. The symbols attached to their extremities precise their semantics. \SBGNERLone's relationships can be viewed as logical rules linking interactors and other rules.
@@ -53,13 +58,7 @@ Relationship arcs are represent the influence of an entity on another relationsh
 \input{sources/inhibition.tex}
 \input{sources/necessaryStimulation.tex}
 \input{sources/absoluteInhibition.tex}
-
-\section{Statements}\label{sec:statements}
-
-\question{NLN}{predicates? One is missing: the existence. Implicit}
-
-\input{sources/assignment.tex}
-\input{sources/interaction.tex}
+\input{sources/logicArc.tex}
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -72,7 +71,7 @@ Relationship arcs are represent the influence of an entity on another relationsh
 \input{sources/and.tex}
 \input{sources/or.tex}
 \input{sources/not.tex}
-
+\input{sources/delay.tex}
 
 % The following is for [X]Emacs users.  Please leave in place.
 % Local Variables:

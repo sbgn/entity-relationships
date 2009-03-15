@@ -26,13 +26,31 @@ In \SBGNERLone, \glyph{state variables} are also used to describe the localisati
 \begin{figure}[H]
   \centering
   \includegraphics[scale = 0.3, trim = 0 0 0 0.25in]{images/stateVariable}
-  \caption{Examples of the \PD glyph for \glyph{state variable}.}
+  \caption{Examples of the \ER glyph for \glyph{state variable}.}
   \label{fig:state-var}
 \end{figure}
 
 A \glyph{state variable} does not necessarily have to be Boolean-valued.  For example, an ion channel can possess several conductance states; a receptor can be inactive, active and desensitized; and so on.  As another example, a \glyph{state variable} ``ubiquitin'' could also carry numerical values corresponding to the number of ubiquitin molecules present in the tail.
 
 The state variable is assigned state-values (see \sect{assignment}). Those values are contained in a glyph similar to the \glyph{stateVariable}, although not carried by another \glyph{EN}. 
+
+Two state variables are predefined. The variable \glyph{existence} is used to represent the creation or destruction of entities, as seen on \fig{existence}. \glyph{Existence}   can take two values, true (T) or false (F). The variable is represented by a circle vertically divided in two. One hemicircle is black, and the other white. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.3, trim = 0 0 0 0.25in]{examples/existence-degradation}
+  \caption{Using the \glyph{state variable} \glyph{existence} to represent the degradation of a protein by a protease (i.e. the influence of the protease on the existence of the protein.}
+  \label{fig:existence}
+\end{figure}
+
+The variable \glyph{location} is used to represent the physical location of an entity, as seen on \fig{location}. \glyph{Location} can take any value, but there can be only one \glyph{location} per entity. The variable is represented by a circle containing a slanted pin.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.3, trim = 0 0 0 0.25in]{examples/location-phosphorylation}
+  \caption{Using the \glyph{state variable} \glyph{location} to represent the positive effect of a phosphorylation on the nuclear location of a protein (i.e. the influence of a phosphorylation assignment to the nuclear assignment). Note that this does not tell-us anything about the location of protein in the absence of phosphorylation.}
+  \label{fig:location}
+\end{figure}
 
 \normalcolor
 
