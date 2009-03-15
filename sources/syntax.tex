@@ -1,9 +1,7 @@
+\color{red}
 \section{Syntax}
 
-The syntax of SBGN \ERs is defined in the form of an incidence matrix. 
-An incidence matrix has arcs as rows and nodes as columns. Each element of the matrix represents the role of an arc in connection to a node. Input (I) means that the arc can begin at that node. Output (O) indicates that the arc can end at that node. Numbers in parenthesis represent the maximum number of arcs of a particular type to have this specific connection role with the node. Empty cells means the arc is not able to connect to the node.
-
-For simplicity Logical operators are treated as interactors
+The syntax of SBGN \ERs is defined in the form of an incidence matrix. An incidence matrix has arcs as rows and nodes as columns. Each element of the matrix represents the role of an arc in connection to a node. Input (I) means that the arc can begin at that node. Output (O) indicates that the arc can end at that node. Numbers in parenthesis represent the maximum number of arcs of a particular type to have this specific connection role with the node. Empty cells means the arc is not able to connect to the node. For simplicity Logical operators are treated as interactors. In addition, in \ERs, any relationship can have another relationship as output.
 
 \subsection{Interactor Nodes connectivity definition}  
 \begin{tabular}{||c|c|c|c|c|c|c|c|c||}
@@ -21,7 +19,7 @@ For simplicity Logical operators are treated as interactors
 \\ \hline 
 
 \glyph{interaction}           & I &   &   & I &   &   &   &   \\ \hline 
-\glyph{assignement}           & O &   &   &   &   &   &   &   \\ \hline 
+\glyph{assignment}            & O &   &   &   &   &   &   &   \\ \hline 
 \glyph{modulation}            & I & I &   & I & I & I & I & I \\ \hline 
 \glyph{stimulation}           & I & I &   & I & I & I & I & I \\ \hline 
 \glyph{necessary stimulation} & I & I &   & I & I & I & I & I \\ \hline 
@@ -39,4 +37,4 @@ Additional rules allow to make the syntax definition more precise.
 \item
 \end{enumerate}  
 
-
+\normalcolor

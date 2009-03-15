@@ -1,3 +1,4 @@
+\color{red}
 \section{Semantic description of \ER{} diagrams}
 
 \subsection{Statements}
@@ -9,29 +10,30 @@ An \glyph{assignement} linking a state variable value $v$ to a \glyph{state-vari
 
 \subsection{Influences}
 
-Modulation: If A then R is either reinforced or weakened\\[\baselineskip]
+A \glyph{modulation} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``If $I$ then $R$ is either reinforced or weakened''. An \glyph{outcome} on a \glyph{modulation} represents the cases when the modulation effectively takes place. It is used as follow: ``when (or if) $I$ modulates $R$ then \ldots''.\\[\baselineskip]
 
 \noindent
-Stimulation: if A then R is reinforced\\[\baselineskip]
+A \glyph{stimulation} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``If $I$ then $R$ is reinforced'' or ``If $I$ then the probability of $R$ is increased''. An \glyph{outcome} on a \glyph{stimulation} represents the cases when the stimulation effectively takes place. It is used as follow: ``when (or if) $I$ stimulates $R$ then \ldots''.\\[\baselineskip]
 
 \noindent
-Necessary stimulation: \\[\baselineskip]
+A \glyph{necessary stimulation} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``$R$ only takes place is $I$. An \glyph{outcome} on a \glyph{necessary stimulation} represents the cases when the stimulation effectively takes place. It is used as follow: ``when (or if) $I$ allows $R$ then \ldots''.\\[\baselineskip]
 
 \noindent
-Inhibition:  If A then R is weakened\\[\baselineskip]
+An \glyph{inhibition} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``If $I$ then $R$ is weakened'' or ``If $I$ then the probability of $R$ is lowered''. An \glyph{outcome} on an \glyph{inhibition} represents the cases when the inhibition effectively takes place. It is used as follow: ``when (or if) $I$ inhibits $R$ then \ldots''.\\[\baselineskip]
 
 \noindent
-Absolute inhibition: if A then non R\\[\baselineskip]
+An \glyph{absolute inhibition} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``If $I$ then $R$ never takes place''. An \glyph{outcome} on an \glyph{absolute inhibition} represents the cases when the absolute inhibition effectively takes place. It is used as follow: ``when (or if) $I$ blocks $R$ then \ldots''.\\[\baselineskip]
 
 \subsection{Logical Operators}
 
-and: if A and B then\\[\baselineskip]
+An \glyph{and} means: ``if all the inputs are true then output''.\\[\baselineskip]
 
 \noindent
-or: if A or B then\\[\baselineskip]
+An \glyph{or} means: ``if any of the input are true then output''.\\[\baselineskip]
 
 \noindent
-not: if not A then \\[\baselineskip]
+A \glyph{not} means: ``if the input is not true then output''.\\[\baselineskip]
 
 \noindent
-delay\\[\baselineskip]
+A \glyph{delay} means: ``if the input is true then output but not immediately''.\\[\baselineskip]
+\normalcolor
