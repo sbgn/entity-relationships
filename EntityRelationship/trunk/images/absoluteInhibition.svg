@@ -15,9 +15,9 @@
    inkscape:version="0.46"
    version="1.0"
    sodipodi:docbase="/home/lenov/SBGN/svn/sbgn/trunk/documents/specifications/ProcessDiagram/Level1/images"
-   sodipodi:docname="Reset.svg"
+   sodipodi:docname="absoluteInhibition.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/images/reset.png"
+   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/images/absoluteInhibition.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
   <defs
@@ -172,7 +172,7 @@
          y="296.70935"
          x="833.88422"
          sodipodi:role="line"
-         id="tspan2403">assignment</tspan></text>
+         id="tspan2424">statement</tspan></text>
     <path
        id="path2399"
        d="M 752.72574,343.87391 L 752.72574,237.45791"
