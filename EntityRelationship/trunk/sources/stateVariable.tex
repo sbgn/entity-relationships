@@ -1,5 +1,6 @@
-% $HeadURL: https://sbgn.svn.sourceforge.net/svnroot/sbgn/trunk/documents/specifications/EntityRelationship/Level1/sources/stateVariable.tex $
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                     State variable
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{blue}
 
 \subsection{Glyph: \glyph{State variable}}
@@ -15,11 +16,11 @@ In \SBGNERLone, \glyph{state variables} are also used to describe the localisati
 
 \glyphSboTerm Not applicable.
 
-\glyphContainer A \glyph{state variable} is represented by an ''sausage'' container, that is two hemicycles of same radius joined by parallel segments, as shown in \fig{state-var}.  The parallel segment axis should be tangent to the border of the glyph of the \glyph{EN} being modified by the \glyph{state variable}. The center of the bounding box of a \glyph{state variable} should be located on the mid-line of the border of the \glyph{EN}.
+\glyphContainer A \glyph{state variable} is represented by a ''stadium'' container, that is two hemicercles of same radius joined by parellel segments, as shown in \fig{state-var}.  The parallel segament axis should be tangent to the border of the glyph of the \glyph{EN} being modified by the \glyph{state variable}. The center of the bounding box of a \glyph{state variable} should be located on the mid-line of the border of the \glyph{EN}.
 
 \glyphLabel A \glyph{state variable} is identified by a label placed in an unbordered box containing a string of characters.  The characters can be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the center of the container.  The label may spill outside of the container.
 
-\glyphAux A \glyph{state variable} does not carry any auxiliary items.
+\glyphAux A \glyph{state variable} does not carry any auxiliary items.  
 
 \end{glyphDescription}
 
@@ -32,9 +33,9 @@ In \SBGNERLone, \glyph{state variables} are also used to describe the localisati
 
 A \glyph{state variable} does not necessarily have to be Boolean-valued.  For example, an ion channel can possess several conductance states; a receptor can be inactive, active and desensitized; and so on.  As another example, a \glyph{state variable} ``ubiquitin'' could also carry numerical values corresponding to the number of ubiquitin molecules present in the tail.
 
-The state variable is assigned state-values (see \sect{assignment}). Those values are contained in a glyph similar to the \glyph{stateVariable}, although not carried by another \glyph{EN}.
+The state variable is assigned state-values (see \sect{assignment}). Those values are contained in a glyph similar to the \glyph{stateVariable}, although not carried by another \glyph{EN}. 
 
-Two state variables are predefined. The variable \glyph{existence} is used to represent the creation or destruction of entities, as seen on \fig{existence}\label{sec:existence}. \glyph{Existence}   can take two values, true (T) or false (F). The variable is represented by a circle vertically divided in two. One hemicircle is black, and the other white.
+Two state variables are predefined. The variable \glyph{existence} is used to represent the creation or destruction of entities, as seen on \fig{existence}\label{sec:existence}. \glyph{Existence}   can take two values, true (T) or false (F). The variable is represented by a circle vertically divided in two. One hemicircle is black, and the other white. 
 
 \begin{figure}[H]
   \centering
