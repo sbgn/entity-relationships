@@ -2,7 +2,7 @@
 % overview
 % =============================================================================
 
-To set the stage for what follows in this chapter, we first give a brief overview of some of the concepts in the \ER notation with the help of an example shown in \fig{eg1}. This example will be re-use throughout the description of the graphical symbols (glyphs) used by \SBGNERLone (with a few additions when the concepts are missing in the example) 
+To set the stage for what follows in this chapter, we first give a brief overview of some of the concepts in the \ER notation with the help of an example shown in \fig{eg1}. This example will be re-used throughout the description of the graphical symbols (glyphs) used by \SBGNERLone (with a few additions when the concepts are missing in the example) 
 
 \begin{figure}[H]
   \centering
@@ -12,46 +12,33 @@ To set the stage for what follows in this chapter, we first give a brief overvie
   \label{fig:eg1}
 \end{figure}
  
-The essence of the \ER diagram is to depict the influences of entities upon the behaviour of others. The entities can exist or not, and the relationships can therefore be understood as logical consequences of this existence. Contrary to the Process Diagram notation, where the different processes affect each other, the relationships are independent. On can imagine that each of the relationships represent the conclusion of a scientific experience or article. The independence of relationships is the key to avoid the combinatorial explosion inherent to Process Diagrams.
+The essence of the \ER diagram is to depict the influences of entities upon the behaviour of others. The entities (in fact all interactors) are things that exist, either on their own or when statements become true. For instance, an entity can exist, different entities can interact, or a value can be assigned to an entity's property. The influences can therefore be understood as logical consequences of this existence. Contrary to the Process Diagram notation, where the different processes affect each other, the relationships are independent. On can imagine that each of the relationships represent a specific conclusion of a scientific experience or article. Their addition on a map represent the extend a the knowledge we have of the effects of the entities represented upon each other. The independence of relationships is the key to avoid the combinatorial explosion inherent to Process Diagrams.
 
-% \tab{component-summary} summarizes the different SBGN abstractions described in this chapter.
-% 
-% \newcolumntype{P}[1]{>{\raggedright\hspace{0pt}\arraybackslash}p{#1}}
-% 
-% \begin{table}[bh]
-%   \centering
-%   \small
-%   \begin{tabular}{@{}llP{2.4in}P{1.6in}@{}}
-%     \toprule
-%     \textbf{Component} & \textbf{Abbrev.} & \textbf{Role} & \textbf{Examples}\\
-%     \midrule
-%     Entity pool node
-%     & EPN
-%     & A population of entities that cannot be distinguished from each other
-%     & Specific macromolecules or other chemical species \\[0.5em]
-% 
-%     Container node	
-%     & CN
-%     & An encapsulation of one or more other SBGN constructs
-%     & Complexes, compartments \\[1.6em]
-% 
-%     Process node
-%     & PN
-%     & A process that transforms one or more EPNs into one or more other EPNs
-%     & Transition, association, dissociation \\[0.5em]
-% 
-%     Connecting arc
-%     & ---
-%     & Links between EPNs or CNs to PNs or CNs to indicate influences
-%     & Production, catalysis, inhibition \\[0.5em]
-% 
-%     Logical operators
-%     & ---
-%     & Combines one or several inputs into one output
-%     & Boolean \emph{and}, \emph{or}, \emph{not} \\
-%     \bottomrule
-%   \end{tabular}
-%   \caption{Summary of \PD components and their roles.}
-%   \label{tab:component-summary}
-% \end{table}
+\tab{component-summary} summarizes the different SBGN abstractions described in this chapter.
+ 
+\newcolumntype{P}[1]{>{\raggedright\hspace{0pt}\arraybackslash}p{#1}}
+ 
+ \begin{table}[h]
+   \centering
+   \small
+   \begin{tabular}{@{}lP{2.4in}P{2.4in}@{}}
+     \toprule
+     \textbf{Component} & \textbf{Role} & \textbf{Examples}\\
+     \midrule
+     Interactor node
+     & Something that exists
+     & An entity, the result of an interaction \\[0.5em]
+ 
+     Statement	
+     & Something that can be true or false
+     & An interaction between entities, the assignment of a value to a variable \\[0.5em]
+ 
+     Influence
+     & The effect of something true on the realisation of a statement or another influence.
+     & A stimulation, an absolute inhibition \\
+     \bottomrule
+   \end{tabular}
+   \caption{Summary of \ER components and their roles.}
+   \label{tab:component-summary}
+ \end{table}
 
