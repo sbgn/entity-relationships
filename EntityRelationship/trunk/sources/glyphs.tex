@@ -18,19 +18,50 @@ In \chap{grammar} beginning on page~\pageref{chp:grammar}, we describe the rules
  
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- %%%%                   Entity nodes
+ %%%%                   Interactor nodes
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
- \section{Interactor nodes}\label{sec:interactors}
+\section{Entity nodes}\label{sec:ENs}
 
-\SBGNERLone{} contains three glyphs representing classes of interactors: \glyph{entity} (\sect{entity}), \glyph{perturbing agent} (\sect{perturbation}) and \glyph{outcome} (\sect{outcome}). Entities can optionally carry auxiliary units such as \glyph{units of information} (\sect{unitInfornation}) and \glyph{state variables} (\sect{stateVariable}).
+In \SBGNERLone{} entity nodes represent element of truth, things that exist. In ontology parlance, they would be ``continuants''. Entity nodes are the source of influences. \SBGNERLone{} contains three different types of entity nodes, the interactors, that are entities able to interact, the logical operators and the \glyph{perturbing agent}. 
+
+\subsection{interactors}\label{sec:interactors}
 
 \input{sources/entity.tex}
-\input{sources/perturbation.tex}
 \input{sources/outcome.tex}
 
-\section{Auxiliary units}\label{sec:aux}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%                   Logical operators
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Logical operators}\label{sec:logic}
+ 
+\input{sources/and.tex}
+\input{sources/or.tex}
+\input{sources/not.tex}
+\input{sources/delay.tex}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%                   Perturbing agent
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Glyph: \glyph{Perturbing agent}}\label{sec:perturbation}
+\input{sources/perturbation.tex}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%                   Auxiliary units
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Auxiliary units}\label{sec:aux}
+
+Auxiliay units are decorations used on \glyph{entities}.
 
 \input{sources/unitInformation.tex}
 \input{sources/stateVariable.tex}
@@ -43,13 +74,25 @@ In \chap{grammar} beginning on page~\pageref{chp:grammar}, we describe the rules
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Statements}\label{sec:statements}
+\section{Relationships}\label{sec:relationships}
+
+In \SBGNERLone{} relationships are rules that decide of the existence of entity nodes, based on the existence of others. In ontology parlance, they would be ``occurants''. \SBGNERLone{} contains two types of relationships, the statements and the influences.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%                   Statements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Statements}\label{sec:statements}
+
+In \SBGNERLone{}, statements can be true or false. Statements are targets of influences. They are not true themselves, but can carry truth element (\glyph{outcomes}, see \sect{outcome}). 
 
 \input{sources/assignment.tex}
 \input{sources/interaction.tex}
 \input{sources/observable.tex}
 
-\section{influences}\label{sec:influences}
+\subsection{influences}\label{sec:influences}
 
 Influence arcs represent the effect of an entity on another relationship. The symbols attached to their extremities precise their semantics. \SBGNERLone's influences can be viewed as logical rules linking interactors and other rules.
 
@@ -59,21 +102,3 @@ Influence arcs represent the effect of an entity on another relationship. The sy
 \input{sources/necessaryStimulation.tex}
 \input{sources/absoluteInhibition.tex}
 \input{sources/logicArc.tex}
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%                   Logical operators
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Logical operators}\label{sec:logic}
- 
-\input{sources/and.tex}
-\input{sources/or.tex}
-\input{sources/not.tex}
-\input{sources/delay.tex}
-
-% The following is for [X]Emacs users.  Please leave in place.
-% Local Variables:
-% TeX-master: "../sbgn_ER-level1"
-% End:

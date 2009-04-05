@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{blue}
 
-\subsection{Glyph: \glyph{Assignment}}\label{sec:assignment}
+\subsubsection{Glyph: \glyph{Assignment}}\label{sec:assignment}
 
 \glyph{Assignment} is used to describe the setting of a state variable to a certain value. The assignment, represented by an harpoon arrow, goes from a variable value, represented by a floating \glyph{state variable} to a variable identification, represented by a \glyph{state variable} attached to the entity affected by the assignment.  The result of an assignment is represented by \glyph{outcomes}, that is by filled dots on the arrow. The result of an \glyph{assignment} can be represented by any number of \glyph{outcomes}.
 
@@ -11,31 +11,26 @@
 
 \begin{glyphDescription}
  \glyphSboTerm non-applicable
- \glyphOrigin A state-variable (section \sect{stateVariable}) on its own containing a variable value.
+ \glyphOrigin A state-variable (section \sect{stateVariable}) on its own, containing a variable value.
  \glyphTarget A state-variable (section \sect{stateVariable}) carried by a interactor (section \sect{interactors}), containing a variable identification.
  \glyphEndPoint The target extremity of an \glyph{assignment} carries an harpoon arrowhead.
  \end{glyphDescription}
 
+\question{NLN}{Can a perturbing agent be a target?}
+
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.5]{images/assignment}
+  \includegraphics[scale = 0.3]{images/assignment}
   \caption{The \ER glyph for \glyph{assignment}.}
   \label{fig:assignment}
 \end{figure}
 
-% 
-% The following example illustrates the phosphorylation of the protein phosphatase inhibitor DARPP-32 on the threonine 34.
-% 
-% \begin{center}
-% \scalebox{0.5}{\includegraphics{images/assignment-example1.eps}}
-% \end{center}
-% 
-% The following example illustrates two alternative assignments of the state variable ``pore'' or the nAChR. The assignment of the value ``open'' is stimulated by nicotine, while the assignement of the value ``desens'' (desensitised) is stimulated by curare. 
-% 
-% \begin{center}
-% \scalebox{0.5}{\includegraphics{images/assignment-example2.eps}}
-% \end{center}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{examples/ex-assignment}
+  \caption{Two examples of \glyph{assignment}, representing the phosphorylated state of residues by one value (phosphorylation) or two values (phosphorylated or not phosphorylated).}
+  \label{fig:ex-assignment}
+\end{figure}
+
 
 \normalcolor
-
-\newpage

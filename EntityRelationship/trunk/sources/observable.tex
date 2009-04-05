@@ -11,7 +11,7 @@ processes in a diagram, SBGN defines the \glyph{observable} glyph.
 
 \begin{glyphDescription}
 
-\glyphSboTerm SBO:0000358 ! process that affects an observable
+\glyphSboTerm SBO:0000358 ! phenotype
 
 \glyphContainer An \glyph{observable} is represented by an elongated
 hexagon, as illustrated in \fig{observable}.
@@ -22,9 +22,6 @@ distributed on several lines to improve readability, although this is not
 mandatory.  The label box must be attached to the center of the
 \glyph{observable} container.  The label may spill outside of the container.
 
-\textbf{DISCUSSION POINT HERE}
-
-\glyphAux It is proposed that an \glyph{observable} glyph would stand as a short-hand for an entity representing the thing we measure, carrying a state variable existence (\sect{existence}). An \glyph{observable} would therefore be different than the other entities because modulatory arcs would directly connect to it, while none would origin from it.
 \end{glyphDescription}
  
 \begin{figure}[H]
@@ -34,9 +31,11 @@ mandatory.  The label box must be attached to the center of the
   \label{fig:observable}
 \end{figure}
 
-\normalcolor
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{examples/ex-observable}
+  \caption{Example of an \glyph{observable} ``Long Term Potentiation (LTP)'' enhanced when the entity ``target'' is phosphorylated [by CaMKII].}
+  \label{fig:ex-observable}
+\end{figure}
 
-% The following is for [X]Emacs users.   Please leave in place.
-% Local Variables:
-% TeX-master: "../sbgn_ER-level1"
-% End:
+\normalcolor
