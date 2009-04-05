@@ -1,42 +1,58 @@
 \color{red}
 \section{Syntax}
 
-The syntax of SBGN \ERs is defined in the form of an incidence matrix. An incidence matrix has arcs as rows and nodes as columns. Each element of the matrix represents the role of an arc in connection to a node. Input (I) means that the arc can begin at that node. Output (O) indicates that the arc can end at that node. Numbers in parenthesis represent the maximum number of arcs of a particular type to have this specific connection role with the node. Empty cells means the arc is not able to connect to the node. For simplicity Logical operators are treated as interactors. In addition, in \ERs, any relationship can have another relationship as output.
+% I am not certain this matrix is suitable for ER. ERs are not bi-partite graphs.
+
+The syntax of SBGN \ERs can be defined in the form of an incidence matrix. This incidence matrix has symbols as rows and arcs as columns. Each element of the matrix represents the role of a symbol in connection to an arc. Input (I) means that the arc can begin on that symbol. Output (O) indicates that the arc can end on that symbol. Numbers in parenthesis represent the maximum number of arcs of a particular type to have this specific connection role with the node. No numbers means any number is allowed. Empty cells means the arc is not able to connect to the symbol. Note that due to its particular nature, \glyph{observable} is listed in the symbols, despite being a statement.
 
 \subsection{Interactor Nodes connectivity definition}  
 \begin{tabular}{||c|c|c|c|c|c|c|c|c||}
 \hline
 \hline
 \raisebox{20pt}{$Arc \backslash interactors$} 
-& \vglyph{entity} 
-& \vglyph{perturbation} 
-& \vglyph{observable} 
-& \vglyph{outcome}
-& \vglyph{and}
-& \vglyph{or}
-& \vglyph{not}
-& \vglyph{delay}
+& \vglyph{assignment} 
+& \vglyph{interaction} 
+& \vglyph{modulation} 
+& \vglyph{stimulation}
+& \vglyph{inhibition}
+& \vglyph{necessary stimulation}
+& \vglyph{absolute inhibition}
+& \vglyph{logic arc}
 \\ \hline 
 
-\glyph{interaction}           & I &   &   & I &   &   &   &   \\ \hline 
-\glyph{assignment}            & O &   &   &   &   &   &   &   \\ \hline 
-\glyph{modulation}            & I & I &   & I & I & I & I & I \\ \hline 
-\glyph{stimulation}           & I & I &   & I & I & I & I & I \\ \hline 
-\glyph{necessary stimulation} & I & I &   & I & I & I & I & I \\ \hline 
-\glyph{inhibition}            & I & I &   & I & I & I & I & I \\ \hline 
-\glyph{absolute inhibition}   & I & I &   & I & I & I & I & I \\ \hline 
-\glyph{logic arc}             & I & I &   & I & IO & IO & IO & IO \\ \hline \hline
+\glyph{entity}                &          & IO       & I & I & I & I & I & I \\ \hline 
+\glyph{outcome}               &          & I(1)O(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) \\ \hline 
+\glyph{and}                   &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O \\ \hline 
+\glyph{or}                    &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O \\ \hline 
+\glyph{not}                   &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
+\glyph{delay}                 &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
+\glyph{perturbing agent}      &          &          & I & I & I & I & I & I \\ \hline 
+\glyph{unit of information}   &          &          &   &   &   &   &   &   \\ \hline 
+\glyph{state variable}        & I(1)O(1) &          &   &   &   &   &   &   \\ \hline 
+\glyph{domain}                &          & IO       &   &   &   &   &   &   \\ \hline 
+\glyph{modulation}            &          &          & O & O & O & O & O & O \\ \hline 
+\glyph{stimulation}           &          &          & O & O & O & O & O & O \\ \hline 
+\glyph{inhibition}            &          &          & O & O & O & O & O & O \\ \hline 
+\glyph{necessary stimulation} &          &          & O & O & O & O & O & O \\ \hline 
+\glyph{absolute inhibition}   &          &          & O & O & O & O & O & O \\ \hline 
+\glyph{observable}            &          &          & O & O & O & O & O &   \\ \hline 
+\hline
 \end{tabular}
 
-% Write a complete matrix
+% Do-we need to define state variable value?
 
 \subsection{Syntactic rules}
 
-The incidence matrix defining the main part of the syntax is too permissive. 
-Additional rules allow to make the syntax definition more precise.
+In addition to the incidence matrix, additional rules refine the syntax of \ERs.
+
+% For each rule we should draw what is forbidden and the correct version?
 
 \begin{enumerate}
-\item
+\item There can be any number of \glyph{entities} with the same label (name). All of them represent the same concept, such as a molecular species. Those different \glyph{entities} do not have to carry the same \glyph{auxiliary units}, whether state variables, units of information or domains.
+\item There can be any number of \glyph{perturbing agents} with the same label (name). All of them represent the same concept, such as a physical input. 
+\item There can be any number of \glyph{observable} with the same label (name). All of them represent the same concept, producing identical readout.
+\item From an \glyph{outcome} can only originate one relationship, whether influence or interaction. The relationships being seen as independent rules, separate consequences of an assignment or an interaction have to originate from different outcomes, that is affirmation of truth of this assignement or interaction.
+\item An \glyph{Influence} from an interactor can target only one interactor or one relationship. Influence arcs cannot be branched. 
 \end{enumerate}  
 
 \normalcolor
