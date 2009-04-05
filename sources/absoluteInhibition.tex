@@ -1,14 +1,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                     absolute inhibition
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\color{green}
+\color{ForestGreen}
 
-\subsection{Glyph: \glyph{Absolute inhibition}}\label{sec:absoluteInhibition}
+\subsubsection{Glyph: \glyph{Absolute inhibition}}\label{sec:absoluteInhibition}
 
-An absolute inhibition precludes the existence of another relationship.
+An absolute inhibition precludes the existence of another relationship. A relationship modulated by an absolute inhibition can only exist when an absolute inhibition in false, whatever are the other influences this relationship is subjected to.
 
 \begin{glyphDescription}
- \glyphSboTerm SBO:0000407 ! absolute inhibition.
+ \glyphSboTerm SBO:0000171 ! absolute inhibition.
  \glyphOrigin Any \glyph{interactor} (\sect{interactors}) or any \glyph{logical operator} (\sect{logic}).
  \glyphTarget Any \glyph{statement} (\sect{statements}) or \glyph{influence} (\sect{influences}).
  \glyphEndPoint The target extremity of a \glyph{absolute inhibition} carries a double bar perpendicular to the arc (to remind that it is an \glyph{inhibition}).
@@ -16,33 +16,16 @@ An absolute inhibition precludes the existence of another relationship.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.5]{images/absoluteInhibition}
-  \caption{The \PD glyph for \glyph{absolute inhibition}.}
+  \includegraphics[scale = 0.3]{images/absoluteInhibition}
+  \caption{The \PD glyph for \glyph{absoluteInhibition}.}
   \label{fig:absoluteInhibition}
 \end{figure}
-%
-% The example in \fig{trigger-gene} below describes the transcription of a gene~X, that is the creation of a messenger RNA~X triggered by the gene~X.  The creation of the protein~X is then triggered by the mRNA~X.  (Note that the same example could be represented using the gene as reactant and product, although it is semantically different.)
-%
-% \begin{figure}[H]
-%   \centering
-%   \includegraphics[scale = 0.5]{examples/trigger-genetic}
-%   \caption{The creation of a messenger RNA~X triggered by the gene~X.}
-%   \label{fig:trigger-gene}
-% \end{figure}
-%
-%
-% The example in \fig{trigger-calcium} below describes the transport of calcium ions out of the endoplasmic reticulum. Without IP3 receptor, there is not calcium flux, therefore, one cannot use a \glyph{stimulation}. The trigger instead represents this absolute stimulation.
-%
-% \begin{figure}[H]
-%   \centering
-%   \includegraphics[scale = 0.5]{examples/trigger-transport}
-%   \caption{The transport of calcium ions out of the endoplasmic reticulum.}
-%   \label{fig:trigger-calcium}
-% \end{figure}
-%
-%
 
-% The following is for [X]Emacs users.  Please leave in place.
-% Local Variables:
-% TeX-master: "../sbgn_PD-level1"
-% End:
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{examples/ex-absoluteInhibition}
+  \caption{This example shows how the interaction between catalytic and regulatory domains of CaMKII precludes the interaction of Calmodulin with CaMKII.}
+  \label{fig:ex-absoluteInhibition}
+\end{figure}
+
+\normalcolor
