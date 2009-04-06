@@ -92,15 +92,15 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5926889"
-     inkscape:cx="144.92749"
+     inkscape:zoom="0.28155028"
+     inkscape:cx="202.30354"
      inkscape:cy="286.90919"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      width="1052.3622px"
      height="744.09448px"
      inkscape:window-width="993"
-     inkscape:window-height="743"
+     inkscape:window-height="744"
      inkscape:window-x="0"
      inkscape:window-y="0"
      showguides="true"
@@ -124,7 +124,7 @@
        id="guide10908" />
     <sodipodi:guide
        orientation="1,0"
-       position="148.57233,674.72659"
+       position="192.68317,360.94796"
        id="guide3249" />
     <sodipodi:guide
        orientation="1,0"
@@ -150,6 +150,22 @@
        orientation="0,1"
        position="66.554116,725.81658"
        id="guide4666" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="238.41212,354.73238"
+       id="guide3349" />
+    <sodipodi:guide
+       orientation="-0.70710678,0.70710678"
+       position="218.87742,394.24574"
+       id="guide3353" />
+    <sodipodi:guide
+       orientation="-0.70710678,0.70710678"
+       position="248.62344,289.02475"
+       id="guide3355" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="216.2136,367.16355"
+       id="guide3357" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -875,8 +891,8 @@
        sodipodi:ry="5.0186229"
        d="M 493.49793,117.1012 A 5.0186229,5.0186229 0 1 1 483.46069,117.1012 A 5.0186229,5.0186229 0 1 1 493.49793,117.1012 z" />
     <path
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 217.63793,403.45367 L 59.880411,403.45367"
+       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 192.64837,403.45367 L 59.642624,403.45367"
        id="path2549" />
     <path
        style="opacity:1;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -888,8 +904,8 @@
        d="M -36.788107,156.50733 L -36.788107,236.54813"
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2.94669342;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 216.39128,402.59453 L 216.39128,164.95763"
+       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 216.39128,359.79313 L 216.39128,164.6939"
        id="path3984" />
     <path
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -907,8 +923,8 @@
        sodipodi:ry="5.0186229"
        d="M 493.49793,117.1012 A 5.0186229,5.0186229 0 1 1 483.46069,117.1012 A 5.0186229,5.0186229 0 1 1 493.49793,117.1012 z" />
     <path
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 476.01651,403.52317 L 214.94886,403.52317"
+       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 476.14765,403.52317 L 237.90418,403.52317"
        id="path3990" />
     <path
        sodipodi:type="arc"
@@ -919,16 +935,16 @@
        sodipodi:rx="14.748228"
        sodipodi:ry="14.748228"
        d="M 319.8143,267.30249 A 14.748228,14.748228 0 1 1 290.31784,267.30249 A 14.748228,14.748228 0 1 1 319.8143,267.30249 z"
-       transform="matrix(1.4474007,0,0,1.4474007,-225.82841,-5.482305)" />
+       transform="matrix(1.4474007,0,0,1.4474007,-225.82841,-25.482305)" />
     <text
        id="text3994"
-       y="390.31525"
+       y="370.31525"
        x="215.94214"
        style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          id="tspan3996"
          style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
-         y="390.31525"
+         y="370.31525"
          x="215.94214"
          sodipodi:role="line">OR</tspan></text>
     <rect
@@ -991,5 +1007,15 @@
          y="361.02975"
          style="font-size:16px;font-weight:normal;text-align:center;text-anchor:middle"
          id="tspan4063">mt:prot</tspan></text>
+    <path
+       id="path3351"
+       d="M 216.2136,382.06327 L 191.79523,404.08155"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 215.12714,382.06327 L 239.54551,404.08155"
+       id="path3359" />
   </g>
 </svg>
