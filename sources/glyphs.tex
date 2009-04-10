@@ -3,8 +3,9 @@
 % =============================================================================
 
 \chapter{Entity Relationship Glyphs}
+\label{chp:glyph}
 
-This chapter provides a catalog of the graphical symbols available for representing entities in \ER diagrams.  There are different classes of glyphs corresponding to different classes of entities, predicates, controls and operators.
+This chapter provides a catalog of the graphical symbols available for representing entities in \ER diagrams.  There are different classes of glyphs corresponding to different classes of entity nodes, statements and influences.
 
 In \chap{grammar} beginning on page~\pageref{chp:grammar}, we describe the rules for combining these glyphs into a legal SBGN \ER, and in \chap{layout} beginning on page~\pageref{chp:layout}, we describe requirements and guidelines for the way that diagrams are visually organized.
 
@@ -24,9 +25,13 @@ In \chap{grammar} beginning on page~\pageref{chp:grammar}, we describe the rules
  
 \section{Entity nodes}\label{sec:ENs}
 
-In \SBGNERLone{} entity nodes represent element of truth, things that exist. In ontology parlance, they would be ``continuants''. Entity nodes are the source of influences. \SBGNERLone{} contains three different types of entity nodes, the interactors, that are entities able to interact, the logical operators and the \glyph{perturbing agent}. 
+\glyph{Entity nodes} represent element of truth, things that exist. 
+%In ontology parlance, they would be ``continuants''. 
+Entity nodes are the source of influences. \SBGNERLone{} provides three different types of \glyph{entity nodes}, the \glyph{interactors}, the \glyph{logical operators} and the \glyph{perturbing agent}. 
 
 \subsection{interactors}\label{sec:interactors}
+
+Interactors are entity nodes that are able to participate in an (\sect{interaction}). \SBGNERLone{} provides two interactors, the \glyph{entity} and the \glyph{outcome} of a statement.
 
 \input{sources/entity.tex}
 \input{sources/outcome.tex}
@@ -37,10 +42,10 @@ In \SBGNERLone{} entity nodes represent element of truth, things that exist. In 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In \SBGNERLone{}, logical operator allow to combine element of truth into another element of truth (if A exists and B exits, then A AND B exists) in order ot apply influences.
-
 \subsection{Logical operators}\label{sec:logic}
- 
+
+A \glyph{logical operator} allows to combine elements of truth into another element of truth (if A exists and B exits, then A AND B exists) in order ot apply influences. \SBGNERLone{} provides four \glyph{logical operators}, \glyph{and}, \glyph{or}, \glyph{not} and \glyph{delay}.
+
 \input{sources/and.tex}
 \input{sources/or.tex}
 \input{sources/not.tex}
@@ -63,12 +68,11 @@ In \SBGNERLone{}, logical operator allow to combine element of truth into anothe
 
 \subsection{Auxiliary units}\label{sec:aux}
 
-Auxiliay units are decorations used on \glyph{entities}.
+\glyph{Auxiliary units} are decorations used on \glyph{entities} (\sect{entity}) and \glyph{interactions} (\sect{interaction}) to further refine their semantics.  \SBGNERLone{} provides two \glyph{auxiliary units}, the \glyph{unit of information} and the \glyph{state variable}.
 
 \input{sources/unitInformation.tex}
 \input{sources/stateVariable.tex}
 % \input{sources/domain.tex}               %%%%%% POSTPONED %%%%%%%%
-\input{sources/submap.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -78,7 +82,9 @@ Auxiliay units are decorations used on \glyph{entities}.
 
 \section{Relationships}\label{sec:relationships}
 
-In \SBGNERLone{} relationships are rules that decide of the existence of entity nodes, based on the existence of others. In ontology parlance, they would be ``occurants''. \SBGNERLone{} contains two types of relationships, the statements and the influences.
+\glyph{Relationships} are rules that decide of the existence of entity nodes, based on the existence of others. 
+%In ontology parlance, they would be ``occurants''. 
+\SBGNERLone{} provides two types of relationships, the statements and the influences.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -88,19 +94,25 @@ In \SBGNERLone{} relationships are rules that decide of the existence of entity 
 
 \subsection{Statements}\label{sec:statements}
 
-In \SBGNERLone{}, statements can be true or false. Statements are targets of influences. They are not true themselves, but can carry truth element (\glyph{outcomes}, see \sect{outcome}). 
+\glyph{Statements} can be true or false. \glyph{Statements} are targets of \glyph{influences}. They are not true themselves, but can carry truth element (\glyph{outcomes}, see \sect{outcome}). \SBGNERLone{} provides four types of statements, \glyph{assignment}, \glyph{interaction}, \glyph{non-interaction} and \glyph{observable}.
 
 \input{sources/assignment.tex}
 \input{sources/interaction.tex}
+\input{sources/non-interaction.tex}
 \input{sources/observable.tex}
 
 \subsection{influences}\label{sec:influences}
 
-Influence arcs represent the effect of an entity on another relationship. The symbols attached to their extremities precise their semantics. \SBGNERLone's influences can be viewed as logical rules linking interactors and other rules.
+Influence arcs represent the effect of an entity on another relationship. The symbols attached to their extremities precise their semantics. SBGN \ER{}'s influences can be viewed as logical rules linking interactors and other rules. \SBGNERLone{} provides seven influences, \glyph{modulation.tex}, \glyph{stimulation.tex}, \glyph{inhibition.tex}, \glyph{necessaryStimulation.tex}, \glyph{absoluteInhibition.tex}, \glyph{absoluteStimulation.tex}, \glyph{logicArc.tex}.
+
 
 \input{sources/modulation.tex}
 \input{sources/stimulation.tex}
 \input{sources/inhibition.tex}
 \input{sources/necessaryStimulation.tex}
 \input{sources/absoluteInhibition.tex}
+\input{sources/absoluteStimulation.tex}
 \input{sources/logicArc.tex}
+
+\section{Submap}\label{sec:submap}
+\input{sources/submap.tex}
