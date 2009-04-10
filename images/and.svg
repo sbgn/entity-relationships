@@ -6,6 +6,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1052.3622"
@@ -66,9 +67,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="411.3127"
-     inkscape:cy="469.06786"
+     inkscape:zoom="15.839192"
+     inkscape:cx="484.48489"
+     inkscape:cy="462.0939"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      width="1052.3622px"
@@ -102,13 +103,26 @@
      inkscape:label="final"
      style="opacity:1">
     <path
+       id="path10018"
+       d="M 324.74114,289.94524 L 283.85211,289.97354"
+       style="opacity:1;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#969696;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:nodetypes="cc" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path10018"
+       id="use10020"
+       transform="translate(186.75762,0.6944797)"
+       width="1052.3622"
+       height="744.09448" />
+    <path
        sodipodi:nodetypes="cc"
        style="opacity:1;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#969696;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 323.98448,290.06089 L 287.25609,272.09041"
+       d="M 323.79556,290.03488 L 300.96025,256.11642"
        id="path2236" />
     <path
-       id="path2238"
-       d="M 323.77553,289.98252 L 286.69359,310.90291"
+       id="path10016"
+       d="M 323.79556,290.11642 L 300.96025,324.03488"
        style="opacity:1;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#969696;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        sodipodi:nodetypes="cc" />
     <path
