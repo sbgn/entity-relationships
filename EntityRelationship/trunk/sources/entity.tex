@@ -19,22 +19,22 @@
 \glyphAux An \glyph{entity} might carry state variables that can add information about its state (\sect{stateVariable}).  A state variable is represented by a ``stadium'', that is a rectangle capped with two hemi-circles, with the long axis of this stadium placed on the border of the \glyph{entity}'s container, as illustrated in \fig{entity}.  The label of the state variable (which can precise the type of characteristic represented by the state variable, residue type, residue number etc.) is written within the state variable's container. Particular \glyph{state variables} are the existence (\sect{existence}) and the location (\sect{location}).
 
 An \glyph{entity} can carry one or several \glyph{units of information} (\sect{unitInformation}).  Particular \glyph{units of information} are available for describing the material type (\sect{material-types-cv}) and the conceptual type (\sect{conceptual-types-cv}) of a macromolecule.  The center of the bounding box of a \glyph{unit of information} is located on the mid-line of the border of the macromolecule.
-
-An \glyph{entity} can carry one of several \glyph{domains}. \glyph{Domains} are represented by labelled subsections of the \glyph{entity}. The leftward section represents the whole entity. 
+% 
+% An \glyph{entity} can carry one of several \glyph{domains}. \glyph{Domains} are represented by labelled subsections of the \glyph{entity}. The leftward section represents the whole entity. 
 
 \end{glyphDescription}
 
 \begin{figure}[H]
   \centering
   \includegraphics[scale = 0.3]{images/entity}
-  \caption{The \ER glyph for \glyph{entity}, showing the location of domains, units of information, global and local state variables.}
+  \caption{The \ER glyph for \glyph{entity}, showing a unit of information (\sect{unitInformation}), and a state variable (\sect{stateVariable}).}
   \label{fig:entity}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[scale = 0.5]{examples/ex-entity}
-  \caption{Example of an \glyph{entity} named CaMKII, that carries a global state variable representing the residu threonine 286, a global unit of information precising its material status (protein), two domains, catalytic and regulatory, the latter carrying a local state variable representing the residu threonine 306.}
+  \caption{Example of an \glyph{entity} named CaMKII, that carries two \glyph{state variables} representing the phosphorylated residu threonine 286, and the residu threonine 306, a \glyph{unit of information} precising its material status (protein), and two \glyph{units of information} used to anchor specific \glyph{interactions}.}
   \label{fig:ex-entity}
 \end{figure}
 
