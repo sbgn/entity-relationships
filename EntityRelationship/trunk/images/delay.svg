@@ -6,6 +6,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1052.3622"
@@ -67,15 +68,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="406.53678"
+     inkscape:cx="380.11522"
      inkscape:cy="454.68163"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      width="1052.3622px"
      height="744.09448px"
      inkscape:window-width="993"
-     inkscape:window-height="743"
-     inkscape:window-x="25"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -101,6 +102,20 @@
      id="layer2"
      inkscape:label="final"
      style="opacity:1">
+    <use
+       style="opacity:1"
+       x="0"
+       y="0"
+       xlink:href="#path10018"
+       id="use10020"
+       transform="translate(190,-1.6352364e-2)"
+       width="1052.3622"
+       height="744.09448" />
+    <path
+       id="path10018"
+       d="M 298.1908,293.56048 L 257.30177,293.58878"
+       style="opacity:1;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#969696;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:nodetypes="cc" />
     <path
        id="path2215"
        d="M 370.39183,293.88374 L 296.89389,293.59093"

@@ -15,9 +15,9 @@
    inkscape:version="0.46"
    version="1.0"
    sodipodi:docbase="/home/lenov/SBGN/svn/sbgn/trunk/documents/specifications/ProcessDiagram/Level1/images"
-   sodipodi:docname="inhibition.svg"
+   sodipodi:docname="absoluteStimulation.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/images/inhibition.png"
+   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/images/absoluteStimulation.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
   <defs
@@ -28,7 +28,7 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_z="1052.3622 : 372.04724 : 1"
        inkscape:persp3d-origin="526.18109 : 248.03149 : 1"
-       id="perspective2447" />
+       id="perspective2421" />
     <marker
        inkscape:stockid="TriangleInL"
        orient="auto"
@@ -118,9 +118,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="834.27846"
-     inkscape:cy="480.94306"
+     inkscape:zoom="1.979899"
+     inkscape:cx="798.00203"
+     inkscape:cy="445.80911"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      width="1052.3622px"
@@ -155,27 +155,32 @@
      style="opacity:1">
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:black;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 767.81841,291.06119 L 617.3073,291.06119"
+       d="M 738.75891,291.06119 L 616.72394,291.06119"
        id="path2839" />
     <path
-       style="opacity:1;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:black;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 765.49993,314.64174 L 765.49993,267.11866"
-       id="path3522"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cccc"
+       id="path5164"
+       d="M 736.48491,292.08559 L 695.45926,272.35858 L 695.42575,311.40944 L 736.48491,292.08559 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 766.48491,292.08559 L 725.45926,272.35858 L 725.42575,311.40944 L 766.48491,292.08559 z "
+       id="path3107"
+       sodipodi:nodetypes="cccc" />
     <text
        id="text2468"
-       y="296.92365"
-       x="860.13672"
+       y="297.41193"
+       x="863.80231"
        style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         y="296.92365"
-         x="860.13672"
+         y="297.41193"
+         x="863.80231"
          sodipodi:role="line"
          id="tspan2424">relationship</tspan></text>
     <path
        id="path2399"
-       d="M 778.97822,344.08819 L 778.97822,237.67219"
+       d="M 782.64381,344.5765 L 782.64381,238.1605"
        style="opacity:1;fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#969696;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
 </svg>
