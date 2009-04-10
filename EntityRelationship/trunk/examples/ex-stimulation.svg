@@ -15,9 +15,9 @@
    inkscape:version="0.46"
    version="1.0"
    sodipodi:docbase="/home/lenov/SBGN/cvs/documents/specifications/Level1/images"
-   sodipodi:docname="ex-observable.svg"
+   sodipodi:docname="ex-stimulation.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/examples/ex-observable.png"
+   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/examples/ex-stimulation.png"
    inkscape:export-xdpi="150"
    inkscape:export-ydpi="150">
   <defs
@@ -92,9 +92,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.79634444"
-     inkscape:cx="357.04321"
-     inkscape:cy="241.07944"
+     inkscape:zoom="2.2524022"
+     inkscape:cx="247.75332"
+     inkscape:cy="42.369664"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      width="1052.3622px"
@@ -234,6 +234,10 @@
          style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
          id="tspan2226">P</tspan></text>
     <path
+       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#ff3232;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 206.00154,580.91537 L 206.00154,622.02438"
+       id="path4740" />
+    <path
        transform="translate(-282.74582,463.62231)"
        sodipodi:type="arc"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -244,17 +248,8 @@
        sodipodi:ry="5.0186229"
        d="M 493.49793,117.1012 A 5.0186229,5.0186229 0 1 1 483.46069,117.1012 A 5.0186229,5.0186229 0 1 1 493.49793,117.1012 z" />
     <path
-       sodipodi:nodetypes="cccc"
-       id="path4738"
-       d="M 205.72537,645.30741 L 216.93994,621.09817 L 194.42179,621.09817 L 205.72537,645.30741 z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.49212766;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 206.00154,580.91537 L 206.00154,622.02438"
-       id="path4740" />
-    <path
        sodipodi:type="star"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff3232;stroke-width:2.06198244999999991;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.06198245;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4742"
        sodipodi:sides="6"
        sodipodi:cx="175.36833"
@@ -270,14 +265,19 @@
        transform="matrix(1.7194845,0,0,1.2310461,-96.781758,-106.49612)" />
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#ff3232;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="204.3484"
        y="685.73022"
        id="text4744"><tspan
          sodipodi:role="line"
          x="204.3484"
          y="685.73022"
-         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle;fill:#ff3232;fill-opacity:1"
+         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
          id="tspan4746">LTP</tspan></text>
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path4738"
+       d="M 206.04679,646.09443 L 217.26136,621.88519 L 194.74321,621.88519 L 206.04679,646.09443 z"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ff3232;stroke-width:2.49212765999999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>

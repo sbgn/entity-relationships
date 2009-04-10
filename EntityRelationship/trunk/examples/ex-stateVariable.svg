@@ -92,8 +92,8 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.39817223"
-     inkscape:cx="357.99026"
+     inkscape:zoom="1.1262011"
+     inkscape:cx="367.68365"
      inkscape:cy="531.63047"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -179,66 +179,16 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="222.66243"
+       x="358.66241"
        y="289.60004"
        id="text13331"><tspan
          sodipodi:role="line"
-         x="222.66243"
+         x="358.66241"
          y="289.60004"
          style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
          id="tspan13333">CaMKII</tspan></text>
-    <path
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 428.59736,341.6586 L 428.59736,222.5414"
-       id="path3245" />
-    <path
-       id="path3247"
-       d="M 298.78232,340.72653 L 298.78232,222.52716"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <text
-       id="text3253"
-       y="289.60004"
-       x="362.66241"
-       style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
-         id="tspan3255"
-         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
-         y="289.60004"
-         x="362.66241"
-         sodipodi:role="line">catalytic</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="500.66241"
-       y="289.60004"
-       id="text3261"><tspan
-         sodipodi:role="line"
-         x="500.66241"
-         y="289.60004"
-         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
-         id="tspan3263">regulatory</tspan></text>
     <rect
-       rx="13.558826"
-       ry="13.891436"
-       y="207.95367"
-       x="200.60481"
-       height="27.782871"
-       width="60.630848"
-       id="rect2445"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       id="text2447"
-       y="227.92712"
-       x="230.66243"
-       style="font-size:16px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
-         id="tspan2449"
-         style="font-size:16px;font-weight:normal;text-align:center;text-anchor:middle"
-         y="227.92712"
-         x="230.66243"
-         sodipodi:role="line">T286P</tspan></text>
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ff3232;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2453"
        width="60.630848"
        height="27.782871"
@@ -248,14 +198,14 @@
        rx="13.558826" />
     <text
        xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:16px;font-style:normal;font-weight:normal;opacity:1;fill:#ff3232;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="488.66241"
        y="227.92712"
        id="text2455"><tspan
          sodipodi:role="line"
          x="488.66241"
          y="227.92712"
-         style="font-size:16px;font-weight:normal;text-align:center;text-anchor:middle"
+         style="font-size:16px;font-weight:normal;text-align:center;text-anchor:middle;fill:#ff3232;fill-opacity:1"
          id="tspan2457">T306</tspan></text>
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -339,5 +289,25 @@
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 230.25966,139.70424 L 189.21343,87.175983"
        id="path4700" />
+    <rect
+       rx="13.558826"
+       ry="13.891436"
+       y="208.14281"
+       x="192.72917"
+       height="27.457584"
+       width="75.374413"
+       id="rect2445"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ff3232;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text2447"
+       y="227.9536"
+       x="231.41429"
+       style="font-size:16px;font-style:normal;font-weight:normal;opacity:1;fill:#ff3232;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         id="tspan2449"
+         style="font-size:16px;font-weight:normal;text-align:center;text-anchor:middle;fill:#ff3232;fill-opacity:1"
+         y="227.9536"
+         x="231.41429"
+         sodipodi:role="line">P@T286</tspan></text>
   </g>
 </svg>
