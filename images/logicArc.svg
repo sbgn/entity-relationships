@@ -67,7 +67,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="265.80292"
+     inkscape:cx="342.11063"
      inkscape:cy="454.09424"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -115,16 +115,16 @@
          id="tspan2843"
          x="206.10602"
          y="284.80878"
-         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle">Origin </tspan><tspan
+         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1">Origin </tspan><tspan
          sodipodi:role="line"
          x="202.28571"
          y="314.80878"
-         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
-         id="tspan2857">EPN</tspan></text>
+         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
+         id="tspan2857">EN</tspan></text>
     <path
-       transform="matrix(0.7421198,0,0,1.0044253,339.38098,-0.9999225)"
+       transform="matrix(0.5706735,0,0,1.0082312,354.3636,-2.1056259)"
        sodipodi:type="arc"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.47476488;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#969696;stroke-width:3.95500779;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path2199"
        sodipodi:cx="170.71428"
        sodipodi:cy="290.52304"
@@ -134,21 +134,21 @@
     <text
        id="text2201"
        y="282.80878"
-       x="466.28571"
+       x="449"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          id="tspan2205"
-         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
+         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
          y="282.80878"
-         x="466.28571"
-         sodipodi:role="line">Logical</tspan><tspan
-         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle"
+         x="449"
+         sodipodi:role="line">Logic</tspan><tspan
+         style="font-size:24px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
          y="312.80878"
-         x="466.28571"
+         x="449"
          sodipodi:role="line"
-         id="tspan2209">operator</tspan></text>
+         id="tspan2209">op</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#969696;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2394"
        width="136.42854"
        height="69.999939"
