@@ -8,36 +8,41 @@
 An \glyph{interaction} linking the \glyph{interactors} $A$ and $B$ means: ``$A$ interacts with $B$''. An \glyph{outcome} on an \glyph{interaction} represents the cases when the statement is true, that is when the interaction effectively exists. If the interaction is a physical interaction between molecules, the \glyph{outcome} represents the complex resulting from the interaction. It is used as follow: ``when (or if) $A$ interacts with $B$ then \ldots''.\\[\baselineskip]
 
 \noindent
+A \glyph{non-interaction} linking the \glyph{interactors} $A$ and $B$ means: ``$A$ does not interacts with $B$''. An \glyph{outcome} on a \glyph{non-interaction} represents the cases when the statement is true, that is when the interaction effectively does not exist. If the interaction is a physical interaction between molecules, the \glyph{outcome} represents the absence of a complex resulting from the interaction. It is used as follow: ``when (or if) $A$ does not interact with $B$ then \ldots''.\\[\baselineskip]
+
+\noindent
 An \glyph{assignement} linking a state variable value $v$ to a \glyph{state-variable} $V$ of an \glyph{interactor} $I$ means: ``$v$ is assigned to $V$ of $I$'' or ``$V$ of $I$ takes the value $v$''. An\glyph{outcome} on an \glyph{assignment} represents the cases when the statement is true, that is when the variable effectively displays the value. It is used as follows: ``when (or if) $V$ of $I$ takes the value $v$ then \ldots'' or more succintly ``when (or if) $I\{V => v\}$ then \ldots''.\\[\baselineskip]
+
+\noindent
+A \glyph{phenotype} $P$ means: ``$P$ exists''.\\[\baselineskip]
 
 \subsection{Influences}
 
-A \glyph{modulation} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``If $I$ exists then $R$ is either reinforced or weakened''. 
+A \glyph{modulation} linking an \glyph{entity node} $e$ and a relationship $R$ means: ``If $E$ exists then $R$ is either reinforced or weakened''. 
 %An \glyph{outcome} on a \glyph{modulation} represents the cases when the modulation effectively takes place. It is used as follow: ``when (or if) $I$ modulates $R$ then \ldots''.
 \\[\baselineskip]
 
 \noindent
-A \glyph{stimulation} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``If $I$ exists then $R$ is reinforced'' or ``If $I$ then the probability of $R$ is increased''. 
+A \glyph{stimulation} linking an \glyph{entity node} $E$ and a relationship $R$ means: ``If $E$ exists then $R$ is reinforced'' or ``If $I$ then the probability of $R$ is increased''. 
 %An \glyph{outcome} on a \glyph{stimulation} represents the cases when the stimulation effectively takes place. It is used as follow: ``when (or if) $I$ stimulates $R$ then \ldots''.
 \\[\baselineskip]
 
 \noindent
-An \glyph{absolute stimulation} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``If $I$ exists then $R$ always takes place''. 
-%An \glyph{outcome} on an \glyph{absolute inhibition} represents the cases when the absolute inhibition effectively takes place. It is used as follow: ``when (or if) $I$ blocks $R$ then \ldots''.
+An \glyph{absolute stimulation} linking an \glyph{entity node} $E$ and a relationship $R$ means: ``If $E$ exists then $R$ always takes place''. 
 \\[\baselineskip]
 
 \noindent
-A \glyph{necessary stimulation} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``$R$ only takes place if $I$ exists. 
+A \glyph{necessary stimulation} linking an \glyph{entity node} $E$ and a relationship $R$ means: ``$R$ only takes place if $E$ exists. 
 %An \glyph{outcome} on a \glyph{necessary stimulation} represents the cases when the stimulation effectively takes place. It is used as follow: ``when (or if) $I$ allows $R$ then \ldots''.
 \\[\baselineskip]
 
 \noindent
-An \glyph{inhibition} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``If $I$ exists then $R$ is weakened'' or ``If $I$ then the probability of $R$ is lowered''. 
+An \glyph{inhibition} linking an \glyph{entity node} $E$ and a relationship $R$ means: ``If $E$ exists then $R$ is weakened'' or ``If $I$ then the probability of $R$ is lowered''. 
 %An \glyph{outcome} on an \glyph{inhibition} represents the cases when the inhibition effectively takes place. It is used as follow: ``when (or if) $I$ inhibits $R$ then \ldots''.
 \\[\baselineskip]
 
 \noindent
-An \glyph{absolute inhibition} linking an \glyph{interactor} $I$ and a relationship $R$ means: ``If $I$ exists then $R$ never takes place''. 
+An \glyph{absolute inhibition} linking an \glyph{entity node} $E$ and a relationship $R$ means: ``If $E$ exists then $R$ never takes place''. 
 %An \glyph{outcome} on an \glyph{absolute inhibition} represents the cases when the absolute inhibition effectively takes place. It is used as follow: ``when (or if) $I$ blocks $R$ then \ldots''.
 \\[\baselineskip]
 
@@ -50,12 +55,16 @@ An \glyph{or} linking several \glyph{interactors} $I_i$ and an influence $F$ mea
 
 % We need to work on that. Expressed that way, it does not make sense.
 \noindent
-A \glyph{not} linking an \glyph{interactors} $I$ and an influence $F$ means: ``if $I$ exists, then $F$ does not''.\\[\baselineskip]
+A \glyph{not} linking an \glyph{interactor} $I$ and an influence $F$ means: ``$F$ takes place if $I$ does not exist''.\\[\baselineskip]
 
 \noindent
-A \glyph{delay} means: ``if the input is true then output but not immediately''.\\[\baselineskip]
+A \glyph{delay} linking an \glyph{interactor} $I$ and an influence $F$ means: ``If $I$ exists then $F$ takes place, but not immediately''.\\[\baselineskip]
 
-% Add a section on truth table and validation of diagrams. Give examples of false ER diagrams. 
+\subsection{(In)Validation of ER diagrams}
+
+Based on the definitions above, it should be possible to use the toolkit of formal logic to analyse \ERs{}. In particular, one can envision to build truth tables describing the consequences of the existences of the various entities. Those table should point to inconsistencies leading to contradictory predicates.
+
+% Give an example of a wrong ER diagram.
 
 \normalcolor
 
