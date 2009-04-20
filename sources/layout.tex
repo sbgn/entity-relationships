@@ -98,6 +98,10 @@ Edge labels are not allowed to overlap nodes. This includes touching of nodes.
 
 Recommendations are rules which should be followed if possible to produce layouts may be easier to understand.
 
+\subsubsection{Multiple \glyph{entities} to represent the same concept}\label{multEnt}
+
+Because rules (the influence of one entity node on a relationship) are independent of each other, a given ``entity'' (the concept) can be represented by many \glyph{entities} (the symbols). If a map is particularly large and an entity highly influenced or influential, it may be a good idea to represent the entity several time, limiting the influences to or from each instance. However, if systematised, such a procedure would lead to disconnected maps difficult to read and interpret. It is recommended to adopt a parsimonious approach, and multiply the symbols representing an entity only when the map become unreadable without doing so.
+
 \subsubsection{Node-edge crossing}\label{crosEdNo}
 
 Crossings between edges and nodes should be avoided. See also requirement \ref{crosEdNoRe} (in case of node-edge crossings the edge must be drawn on the top of the node).

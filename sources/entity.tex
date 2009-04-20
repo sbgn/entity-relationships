@@ -14,9 +14,9 @@
 
 \glyphContainer An \glyph{entity} is represented by a rectangular container with rounded corners, as illustrated in \fig{entity}.
 
-\glyphLabel An \glyph{entity} is identified by a label placed in an unbordered box containing a string of characters.  The characters can be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the center of the container.
+\glyphLabel An \glyph{entity} is identified by a label placed in an unbordered box containing a string of characters.  The characters can be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the center of the container. 
 % if the \glyph{entity} does not contain domains. If the \glyph{entity} contains \glyph{domains}, the label box must be attached to the center of the container representing the whole entity (\sect{domain}).
-The label may spill outside of the container.
+The label may spill outside of the container. All the \glyph{entities} with the same label represent the same concept. However, see the layout recommendation \ref{multEnt}.
 
 \glyphAux An \glyph{entity} might carry state variables that can add information about its state (\sect{stateVariable}).  A state variable is represented by a ``stadium'', that is a rectangle capped with two hemi-circles, with the long axis of this stadium placed on the border of the \glyph{entity}'s container, as illustrated in \fig{entity}.  The label of the state variable (which can precise the type of characteristic represented by the state variable, residue type, residue number etc.) is written within the state variable's container. Particular \glyph{state variables} are the existence (\sect{existence}) and the location (\sect{location}).
 
@@ -29,7 +29,7 @@ An \glyph{entity} can carry one or several \glyph{units of information} (\sect{u
 \begin{figure}[H]
   \centering
   \includegraphics[scale = 0.3]{images/entity}
-  \caption{The \ER glyph for \glyph{entity}, showing a unit of information (\sect{unitInformation}), and a state variable (\sect{stateVariable}).}
+  \caption{The \ER glyph for \glyph{entity}, showing a unit of information (\sect{unitInformation}), and two state variables (\sect{stateVariable}). The state variables can be carried by the same \glyph{entity}, or two \glyph{entities} with the same name, representing the same concept.}
   \label{fig:entity}
 \end{figure}
 
