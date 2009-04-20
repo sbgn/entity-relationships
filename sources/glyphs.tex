@@ -7,7 +7,7 @@
 
 This chapter provides a catalog of the graphical symbols available for representing entities in \ER diagrams.  There are different classes of glyphs corresponding to different classes of entity nodes, statements and influences.
 
-In \chap{grammar} beginning on page~\pageref{chp:grammar}, we describe the rules for combining these glyphs into a legal SBGN \ER, and in \chap{layout} beginning on page~\pageref{chp:layout}, we describe requirements and guidelines for the way that diagrams are visually organized.
+In \chap{grammar} beginning on page~\pageref{chp:grammar}, we describe the rules for combining these glyphs into legal SBGN \ERs, and in \chap{layout} beginning on page~\pageref{chp:layout}, we describe requirements and guidelines for the way that diagrams are visually organized.
 
 \section{Overview}
  
@@ -25,13 +25,13 @@ In \chap{grammar} beginning on page~\pageref{chp:grammar}, we describe the rules
  
 \section{Entity nodes}\label{sec:ENs}
 
-\glyph{Entity nodes} represent element of truth, things that exist. 
+\glyph{Entity nodes} (ENs) represent element of truth, things that exist. 
 %In ontology parlance, they would be ``continuants''. 
 Entity nodes are the source of influences. \SBGNERLone{} provides three different types of \glyph{entity nodes}, the \glyph{interactors}, the \glyph{logical operators} and the \glyph{perturbing agent}. 
 
-\subsection{interactors}\label{sec:interactors}
+\subsection{Interactors}\label{sec:interactors}
 
-Interactors are entity nodes that are able to participate in an (\sect{interaction}). \SBGNERLone{} provides two interactors, the \glyph{entity} and the \glyph{outcome} of a statement.
+Interactors are entity nodes that are able to participate in an interaction (\sect{interaction}). \SBGNERLone{} provides two interactors, the \glyph{entity} and the \glyph{outcome} of a statement.
 
 \input{sources/entity.tex}
 \input{sources/outcome.tex}
@@ -101,9 +101,9 @@ A \glyph{logical operator} allows to combine elements of truth into another elem
 \input{sources/non-interaction.tex}
 \input{sources/phenotype.tex}
 
-\subsection{influences}\label{sec:influences}
+\subsection{Influences}\label{sec:influences}
 
-Influence arcs represent the effect of an entity on another relationship. The symbols attached to their extremities precise their semantics. SBGN \ER{}'s influences can be viewed as logical rules linking interactors and other rules. \SBGNERLone{} provides seven influences, \glyph{modulation.tex}, \glyph{stimulation.tex}, \glyph{inhibition.tex}, \glyph{necessaryStimulation.tex}, \glyph{absoluteInhibition.tex}, \glyph{absoluteStimulation.tex}, \glyph{logicArc.tex}.
+Influence arcs represent the effect of an entity on another relationship. The symbols attached to their extremities precise their semantics. SBGN \ER{}'s influences can be viewed as logical rules linking interactors and other rules. \SBGNERLone{} provides seven influences, \glyph{modulation}, \glyph{stimulation}, \glyph{inhibition}, \glyph{necessaryStimulation}, \glyph{absoluteInhibition}, \glyph{absoluteStimulation}, \glyph{logicArc}.
 
 
 \input{sources/modulation.tex}
