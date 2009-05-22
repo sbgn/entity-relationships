@@ -48,19 +48,22 @@ The syntax of SBGN \ERs can be defined in the form of an incidence matrix. This 
 % Do-we need to define state variable value?
 
 \subsection{Syntactic rules}
+\label{sec:SyntacticRules}
 
 In addition to the incidence matrix, additional rules refine the syntax of \ERs.
 
 % For each rule we should draw what is forbidden and the correct version?
 
 \begin{enumerate}
-\item There can be any number of \glyph{entities} with the same label (name). All of them represent the same concept, such as a molecular species. Those different \glyph{entities} do not have to carry the same \glyph{auxiliary units}, whether state variables, units of information or domains. The sum of all those entities represent the biological concept.
+%\item There can be any number of \glyph{entities} with the same label (name). All of them represent the same concept, such as a molecular species. Those different \glyph{entities} do not have to carry the same \glyph{auxiliary units}, whether state variables, units of information or domains. The sum of all those entities represent the biological concept.
 % Create a figure like the one presented in Auckland. 
-\item There can be any number of \glyph{perturbing agents} with the same label (name). All of them represent the same concept, such as a specific physical input. 
-\item There can be any number of \glyph{phenotype} with the same label (name). All of them represent the same concept, producing identical readout.
-\item From an \glyph{outcome} can only originate one relationship, whether influence or interaction. The relationships being seen as independent rules, separate consequences of an assignment or an interaction have to originate from different outcomes, that is affirmation of truth of this assignement or interaction.
-\item A given \glyph{Influence} can only target one relationship. Influence arcs cannot be branched out.
+%\item There can be any number of \glyph{perturbing agents} with the same label (name). All of them represent the same concept, such as a specific physical input. 
+%\item There can be any number of \glyph{phenotype} with the same label (name). All of them represent the same concept, producing identical readout.
+\item From an \glyph{outcome} can only originate one relationship, whether influence or interaction. The relationships being seen as independent rules, separate consequences of an assignment or an interaction have to originate from different outcomes, that is assetion of truth of this assignment or interaction.
+%\item A given \glyph{Influence} can only target one relationship. Influence arcs cannot be branched out.
 \item There cannot be both an \glyph{absoluteStimulation} and an \glyph{absoluteInhibition} targeting the same statement.
+\item In the case of a non-binary interaction, the ``cis'' or ``trans'' \glyph{unit of information} must be carried by the circle representing the n-ary interaction, and not the arc connecting this circle and a given interactor.
+\item If an \glyph{influence} targeting an \glyph{interaction} carries a ``cis'' or ``trans'' unit of information, at least one of the \glyph{interactors} must be the same \glyph{entity} than the origin of the influence. 
 \end{enumerate}  
 
 \normalcolor
