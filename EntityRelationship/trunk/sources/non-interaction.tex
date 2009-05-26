@@ -11,13 +11,14 @@
  \glyphSboTerm SBO:NEW
  \glyphOrigin Any \glyph{interactor} (\sect{interactors}).
  \glyphTarget Any \glyph{interactor} (\sect{interactors}).
- \glyphEndPoint Both origin and target extremities of an \glyph{interaction} carry an harpoon arrowhead. The absence of the interaction is denoted by two parallel bar perpendicular to the arc.
+ \glyphEndPoint Both origin and target extremities of a \glyph{non-interaction} carry an harpoon arrowhead. In the case of n-ary non-interactions, the arrows pointing to the \glyph{interactors} originate from a circle. 
+ \glyphAux A \glyph{unit of information} containing a \glyph{cardinality} (\sect{miscellaneous-cv}) indicates the number of instances of an entity involved in an interaction. A \glyph{unit of information} on a binary non-interaction involving only one entity carrying the mention \glyph{cis} or \glyph{trans} precises if this is an absence of an intra-molecular interaction or and interaction between different instances of the same entity.
  \end{glyphDescription}
 
 \begin{figure}[H]
   \centering
   \includegraphics[scale = 0.3]{images/non-interaction}
-  \caption{The \ER glyph for \glyph{non-interaction}. Top, binary interaction; bottom, n-ary interaction.}
+  \caption{The \ER glyph for \glyph{non-interaction}. Top, binary non-interaction between two entities; bottom left, absence of an intra-molecular interaction; bottom right, absence of an n-ary interaction.}
   \label{fig:interaction}
 \end{figure}
 % 
