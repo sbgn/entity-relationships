@@ -74,8 +74,8 @@
      width="1052.3622px"
      height="744.09448px"
      inkscape:window-width="1024"
-     inkscape:window-height="744"
-     inkscape:window-x="0"
+     inkscape:window-height="749"
+     inkscape:window-x="-5"
      inkscape:window-y="0"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -637,18 +637,6 @@
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#969696;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        sodipodi:nodetypes="cc" />
     <text
-       sodipodi:linespacing="125%"
-       id="text2783"
-       y="672.71643"
-       x="80.629814"
-       style="font-size:12.4330349px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Bitstream Vera Sans"
-         y="672.71643"
-         x="80.629814"
-         id="tspan2785"
-         sodipodi:role="line">DELAY</tspan></text>
-    <text
        id="text2787"
        y="671.23395"
        x="156.87305"
@@ -1167,5 +1155,10 @@
          id="path3350"
          sodipodi:nodetypes="cccc" />
     </g>
+    <path
+       style="font-size:2050.27807617px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       d="M 97.109588,663.20955 L 96.616958,668.08495 C 96.537668,668.93433 96.498038,669.7837 96.498038,670.63307 C 96.498038,672.25254 96.687728,673.23498 97.067118,673.58039 C 97.446498,673.92581 97.879678,674.09851 98.366658,674.09851 C 99.453851,674.09851 100.09938,673.41335 100.30324,672.04303 L 100.93177,672.04303 C 100.55804,675.19137 99.306631,676.76554 97.177538,676.76554 C 94.946508,676.76554 93.831008,675.48582 93.831008,672.92637 C 93.831008,671.63534 93.955578,670.02719 94.204738,668.10193 L 94.833268,663.20955 L 93.151508,663.20955 C 92.222858,663.20956 91.500898,663.36528 90.985608,663.6767 C 90.470318,663.98815 89.991838,664.61385 89.550168,665.55382 L 88.938618,665.55382 C 89.301018,664.30808 89.731368,663.31998 90.229668,662.5895 C 90.727968,661.85906 91.203608,661.36642 91.656618,661.11159 C 92.109608,660.8568 92.783448,660.72939 93.678128,660.72938 L 102.03595,660.72938 L 102.03595,663.20955 L 97.109588,663.20955 z"
+       id="path3112"
+       sodipodi:nodetypes="cccccccsccccccccccccc" />
   </g>
 </svg>
