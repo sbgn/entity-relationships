@@ -66,15 +66,15 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.74721694"
-     inkscape:cx="529.3813"
-     inkscape:cy="387.87699"
+     inkscape:zoom="0.78209004"
+     inkscape:cx="277.61283"
+     inkscape:cy="239.89437"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="1052.3622px"
      height="744.09448px"
-     inkscape:window-width="1024"
-     inkscape:window-height="749"
+     inkscape:window-width="1680"
+     inkscape:window-height="1031"
      inkscape:window-x="-5"
      inkscape:window-y="0"
      showguides="true"
@@ -156,8 +156,8 @@
     <rect
        rx="8.8085051"
        ry="8.8085051"
-       y="598.58392"
-       x="346"
+       y="526.58392"
+       x="280"
        height="103.51056"
        width="218.44658"
        id="rect7329"
@@ -496,24 +496,15 @@
            id="tspan20819"
            sodipodi:role="line">modulation</tspan></text>
     </g>
-    <rect
-       style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.25;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect3545"
-       width="77.459991"
-       height="71.471001"
-       x="360.36511"
-       y="615.14209"
-       rx="0"
-       ry="0" />
     <text
        id="text4846"
-       y="654.58606"
-       x="399.18073"
+       y="582.58606"
+       x="333.18073"
        style="font-size:5.33054447px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          style="font-size:10.66108894px;font-weight:normal;text-align:center;text-anchor:middle;stroke-width:1.25;stroke-miterlimit:4;stroke-dasharray:none"
-         y="654.58606"
-         x="399.18073"
+         y="582.58606"
+         x="333.18073"
          sodipodi:role="line"
          id="tspan4850">LABEL</tspan></text>
     <path
@@ -924,25 +915,25 @@
          y="257.30341">interaction</tspan></text>
     <text
        id="text7335"
-       y="574.34412"
-       x="397.89526"
+       y="502.34412"
+       x="317.89526"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
-         y="574.34412"
-         x="397.89526"
+         y="502.34412"
+         x="317.89526"
          id="tspan7337"
          sodipodi:role="line"
-         style="font-size:16px">Containers</tspan></text>
+         style="font-size:16px">reference nodes</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="475.10004"
-       y="652.66418"
+       x="409.10004"
+       y="580.66418"
        id="text7339"><tspan
          sodipodi:role="line"
          id="tspan7341"
-         x="475.10004"
-         y="652.66418">submap</tspan></text>
+         x="409.10004"
+         y="580.66418">annotation</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        id="path7352"
@@ -1160,5 +1151,13 @@
        d="M 97.109588,663.20955 L 96.616958,668.08495 C 96.537668,668.93433 96.498038,669.7837 96.498038,670.63307 C 96.498038,672.25254 96.687728,673.23498 97.067118,673.58039 C 97.446498,673.92581 97.879678,674.09851 98.366658,674.09851 C 99.453851,674.09851 100.09938,673.41335 100.30324,672.04303 L 100.93177,672.04303 C 100.55804,675.19137 99.306631,676.76554 97.177538,676.76554 C 94.946508,676.76554 93.831008,675.48582 93.831008,672.92637 C 93.831008,671.63534 93.955578,670.02719 94.204738,668.10193 L 94.833268,663.20955 L 93.151508,663.20955 C 92.222858,663.20956 91.500898,663.36528 90.985608,663.6767 C 90.470318,663.98815 89.991838,664.61385 89.550168,665.55382 L 88.938618,665.55382 C 89.301018,664.30808 89.731368,663.31998 90.229668,662.5895 C 90.727968,661.85906 91.203608,661.36642 91.656618,661.11159 C 92.109608,660.8568 92.783448,660.72939 93.678128,660.72938 L 102.03595,660.72938 L 102.03595,663.20955 L 97.109588,663.20955 z"
        id="path3112"
        sodipodi:nodetypes="cccccccsccccccccccccc" />
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.87149149;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 301.38795,561.09448 L 301.38795,597.69712 L 367.87185,597.69712 L 367.87185,570.39221 L 357,561.09448 L 301.38795,561.09448 z"
+       id="rect2872" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.17508945px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 357.09035,561.09066 L 357.09035,570.32845 L 367.85378,570.32845 L 357.09035,561.09066 z"
+       id="path2400" />
   </g>
 </svg>
