@@ -17,7 +17,7 @@
    sodipodi:docbase="/home/lenov/SBGN/cvs/documents/specifications/Level1/images"
    sodipodi:docname="ex-location-2.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/examples/ex-location.png"
+   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/examples/ex-location-2.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
   <sodipodi:namedview
@@ -31,7 +31,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.5641003"
-     inkscape:cx="337.79992"
+     inkscape:cx="319.26442"
      inkscape:cy="506.31945"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -589,46 +589,6 @@
        d="M 501.07676,171.92538 A 13.839939,13.839939 0 1 1 473.39688,171.92538 A 13.839939,13.839939 0 1 1 501.07676,171.92538 z"
        transform="translate(-161.57934,379.25294)" />
     <path
-       transform="matrix(0.767402,-0.6706005,1.0714622,1.2261282,-287.36532,745.84486)"
-       sodipodi:open="true"
-       sodipodi:end="9.4201153"
-       sodipodi:start="3.140546"
-       d="M 573.39297,153.335 A 5.1478648,1.1879689 0 1 1 573.39302,153.33929"
-       sodipodi:ry="1.1879689"
-       sodipodi:rx="5.1478648"
-       sodipodi:cy="153.33376"
-       sodipodi:cx="578.54083"
-       id="path2416"
-       style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path3206"
-       sodipodi:cx="578.54083"
-       sodipodi:cy="153.33376"
-       sodipodi:rx="5.1478648"
-       sodipodi:ry="1.1879689"
-       d="M 573.39297,153.335 A 5.1478648,1.1879689 0 1 1 573.39302,153.33929"
-       sodipodi:start="3.140546"
-       sodipodi:end="9.4201153"
-       sodipodi:open="true"
-       transform="matrix(0.8660067,-0.7567671,1.4935534,1.7091485,-404.14894,727.33593)" />
-    <rect
-       transform="matrix(0.7530026,-0.6580176,0.6580176,0.7530026,0,0)"
-       ry="0"
-       rx="0"
-       y="622.67682"
-       x="-120.55131"
-       height="5.8031774"
-       width="5.9790545"
-       id="rect3208"
-       style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <path
-       id="path3210"
-       d="M 332.35515,558.99133 L 320.78366,545.74949"
-       style="opacity:1;fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.66452168999999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.49212765999999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 331.34611,478.66525 L 355.55535,489.87982 L 355.55535,467.36167 L 331.34611,478.66525 z"
        id="path3560"
@@ -643,5 +603,15 @@
          x="452.31366"
          id="tspan5525"
          sodipodi:role="line" /></text>
+    <path
+       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 335.40625,560.67834 L 322.56287,548.40007"
+       id="path3419"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path3421"
+       d="M 331.67891,539.41491 L 313.97562,558.02238"
+       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
   </g>
 </svg>
