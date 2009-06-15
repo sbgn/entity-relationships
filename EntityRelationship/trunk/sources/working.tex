@@ -1,5 +1,11 @@
 \chapter{Issues postponed to future levels}\label{sec:postponed}
 
-\section{Domains}\label{sec:unresolved_domain}
+\section{Domains, sites and motives}\label{sec:unresolved_domain}
 
-Domain would permit to define global and local auxiliary units, for instance global state variables (state of a ion channel pore) or local state variables (phosphorylation of a given subunit of a ion channel). The issue is not easy to resolve and the tentatives so far led to either problems of nesting or unsatisfactory identification and handling of global and local auxiliary units. Considering that 1) the attribution of an auxiliary unit does not change the semantics of a map, and is more like a sophisticated annotation, and 2) a map producer can always use several entities to represent different domains, it was felt that the issue should be postponed to a further level/version.
+\SBGNERLone does not currently provide structures to represent physical or functional subdivisions of entities. Nevertheless, it is clear that domains are important, and that people want, and need, to represent them. 
+Domains would permit to define global and local auxiliary units, for instance global state variables (state of a ion channel pore) or local state variables (phosphorylation of a given subunit of a ion channel). The issue is not easy to resolve and the tentatives so far led to either problems of nesting or unsatisfactory identification and handling of global and local auxiliary units. 
+
+Different solutions have been proposed, that can be grouped in two broad approaches: nesting and the subdivision. Both have advantages and disadvantages. Nesting is closer to the underlying, or conceptual, representation, and will probably be favored by computer scientists. Subdivision is closer to the physical structure of the entities and to what we draw in the back on an envelop and in a power-point presentation. It will likely be preferred by biologists. 
+
+Designing a consistent and robust system will require a significant amount of work and discussion. Considering that the attribution of an auxiliary unit does not change the semantics of a map, and is more like a sophisticated annotation, but also that a map producer can currently use several entities to represent different domains, it was felt that the issue should be postponed to a further version of the language. Meanwhile, people interested can consult the relevant documents at \url{http://sbgn.org/ER_development} and participate to the discussion on \texttt{sbgn-discuss@caltech.edu}.
+
