@@ -12,13 +12,13 @@
  \glyphOrigin Any \glyph{interactor} (\sect{interactors}).% or  \glyph{unit of information} (\sect{unitInformation}) carried by an \glyph{entity} (\sect{entity}).
  \glyphTarget Any \glyph{interactor} (\sect{interactors}).% or  \glyph{unit of information} (\sect{unitInformation}) carried by an \glyph{entity} (\sect{entity}).
  \glyphEndPoint Both origin and target extremities of an \glyph{interaction} carry an harpoon arrowhead. In the case of n-ary interactions, the arrows pointing to the \glyph{interactors} originate from a circle. 
-\glyphAux A \glyph{unit of information} containing a \glyph{cardinality} (\sect{miscellaneous-cv}) indicates the number of instances of an entity involved in an interaction. A \glyph{unit of information} on a binary interaction involving only one entity carrying the mention \glyph{cis} or \glyph{trans} precises if the interaction is intra-molecular or between different instances of the same entity.
+\glyphAux A \glyph{unit of information} containing a \glyph{cardinality} (\sect{miscellaneous-cv}) indicates the number of instances of an entity involved in an interaction. The absence of a \glyph{cardinality} is synonymous of a cardinality of 1. A \glyph{unit of information} on a binary interaction involving only one entity carrying the mention \glyph{cis} or \glyph{trans} precises if the interaction is intra-molecular or between different instances of the same entity.
  \end{glyphDescription}
 
 \begin{figure}[H]
   \centering
   \includegraphics[scale = 0.3]{images/interaction}
-  \caption{The \ER glyph for \glyph{interaction}. Top, binary interaction between two entities; bottom left, intra-molecular interaction; bottom right, n-ary interaction.}
+  \caption{The \ER glyph for \glyph{interaction}. Top, binary interaction between two entities. The circle can be ommitted, and the \glyph{outcomes} located anywhere on the \glyph{interaction}. Bottom, because the cardinality of the entity A is 2, the interaction is not a binary one, but a n-ary one. The circle cannot be ommitted. Center right, n-ary interaction with three different entities. Center left, intra-molecular interaction; }
   \label{fig:interaction}
 \end{figure}
 
@@ -29,6 +29,5 @@
   \label{fig:ex-interaction}
 \end{figure}
 
-%%% Add a part on cardinality, with an example of alternative interactions with different cardinalities.
 
 \normalcolor
