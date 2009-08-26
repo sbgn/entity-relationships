@@ -1,4 +1,4 @@
-\color{red}
+%\color{red}
 \section{Semantic description of \ER{} diagrams}
 
 % Add small images of the glyphs
@@ -7,8 +7,8 @@
 
 An \glyph{interaction} linking the \glyph{interactors} $A$ and $B$ means: ``$A$ interacts with $B$''. An \glyph{outcome} on an \glyph{interaction} represents the cases when the statement is true, that is when the interaction effectively exists. If the interaction is a physical interaction between molecules, the \glyph{outcome} represents the complex resulting from the interaction. It is used as follow: ``when (or if) $A$ interacts with $B$ then \ldots''.\\[\baselineskip]
 
-\noindent
-A \glyph{non-interaction} linking the \glyph{interactors} $A$ and $B$ means: ``$A$ does not interacts with $B$''. An \glyph{outcome} on a \glyph{non-interaction} represents the cases when the statement is true, that is when the interaction effectively does not exist. If the interaction is a physical interaction between molecules, the \glyph{outcome} represents the absence of a complex resulting from the interaction. It is used as follow: ``when (or if) $A$ does not interact with $B$ then \ldots''.\\[\baselineskip]
+% \noindent
+% A \glyph{non-interaction} linking the \glyph{interactors} $A$ and $B$ means: ``$A$ does not interacts with $B$''. An \glyph{outcome} on a \glyph{non-interaction} represents the cases when the statement is true, that is when the interaction effectively does not exist. If the interaction is a physical interaction between molecules, the \glyph{outcome} represents the absence of a complex resulting from the interaction. It is used as follow: ``when (or if) $A$ does not interact with $B$ then \ldots''.\\[\baselineskip]
 
 \noindent
 An \glyph{assignement} linking a state variable value $v$ to a \glyph{state-variable} $V$ of an \glyph{entity} $E$ means: ``$v$ is assigned to $V$ of $E$'' or ``$V$ of $E$ takes the value $v$''. An\glyph{outcome} on an \glyph{assignment} represents the cases when the statement is true, that is when the variable effectively displays the value. It is used as follows: ``when (or if) $V$ of $E$ takes the value $v$ then \ldots'' or more succintly ``when (or if) $E\{V => v\}$ then \ldots''.\\[\baselineskip]
@@ -71,14 +71,11 @@ The use of cis and trans units of information on a combination of relationships 
  \item The unit of information ``cis'' or ``trans'' carried by an \glyph{influence} targeting an \glyph{interaction} refers to the origin of the \glyph{influence} and all the relevant \glyph{interactors} targeted by the \glyph{interaction} (see \sect{SyntacticRules}).
 \end{itemize}
 
-
-
-
-\subsection{(In)Validation of ER diagrams}
+\subsection{(In)Validation of ER maps}
 
 Based on the definitions above, it should be possible to use the toolkit of formal logic to analyse \ERs{}. In particular, one can envision to build truth tables describing the consequences of the existences of the various entities. Those table should point to inconsistencies leading to contradictory predicates.
 
-% Give an example of a wrong ER diagram.
+% Give an example of a wrong ER map.
 
-\normalcolor
+%\normalcolor
 

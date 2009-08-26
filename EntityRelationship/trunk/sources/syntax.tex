@@ -1,4 +1,4 @@
-\color{red}
+%\color{red}
 \section{Syntax}
 
 % I am not certain this matrix is suitable for ER. ERs are not bi-partite graphs.
@@ -6,13 +6,13 @@
 The syntax of SBGN \ERs can be defined in the form of an incidence matrix. This incidence matrix has symbols as rows and arcs as columns. Each element of the matrix represents the role of a symbol in connection to an arc. Input (I) means that the arc can begin on that symbol. Output (O) indicates that the arc can end on that symbol. Numbers in parenthesis represent the maximum number of arcs of a particular type to have this specific connection role with the node. No numbers means any number is allowed. Empty cells means the arc is not able to connect to the symbol. 
 
 \subsection{Interactor Nodes connectivity definition}  
-\begin{tabular}{||c|c|c|c|c|c|c|c|c|c|c||}
+\begin{tabular}{||c|c|c|c|c|c|c|c|c|c||}
 \hline
 \hline
 \raisebox{20pt}{symbols $\backslash$ Arc } 
 & \vglyph{assignment} 
 & \vglyph{interaction} 
-& \vglyph{non-interaction} 
+%& \vglyph{non-interaction} 
 & \vglyph{modulation} 
 & \vglyph{stimulation}
 & \vglyph{inhibition}
@@ -22,26 +22,26 @@ The syntax of SBGN \ERs can be defined in the form of an incidence matrix. This 
 & \vglyph{logic arc}
 \\ \hline 
 
-\glyph{entity}                &          & IO       & IO       &I & I & I & I & I & I & I \\ \hline 
-\glyph{outcome}               &          & I(1)O(1) & I(1)O(1) &I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) \\ \hline 
-\glyph{and}                   &          &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O \\ \hline 
-\glyph{or}                    &          &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O \\ \hline 
-\glyph{not}                   &          &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
-\glyph{delay}                 &          &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
-\glyph{perturbing agent}      &          &          &          & I & I & I & I & I & I & I \\ \hline 
-\glyph{unit of information}   &          & IO       & IO       &   &   &   &   &   &   &   \\ \hline 
-\glyph{state variable}        & I(1)O(1) &          &          &   &   &   &   &   &   &   \\ \hline 
+\glyph{entity}                &          & IO       & I & I & I & I & I & I & I \\ \hline 
+\glyph{outcome}               &          & I(1)O(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) \\ \hline 
+\glyph{and}                   &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O \\ \hline 
+\glyph{or}                    &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O \\ \hline 
+\glyph{not}                   &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
+\glyph{delay}                 &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
+\glyph{perturbing agent}      &          &          & I & I & I & I & I & I & I \\ \hline 
+\glyph{unit of information}   &          & IO       &   &   &   &   &   &   &   \\ \hline 
+\glyph{state variable}        & I(1)O(1) &          &   &   &   &   &   &   &   \\ \hline 
 %\glyph{domain}                &          & IO       &   &   &   &   &   &   &   \\ \hline 
-\glyph{modulation}            &          &          &          & O & O & O & O & O & O &  \\ \hline 
-\glyph{stimulation}           &          &          &          & O & O & O & O & O & O &  \\ \hline 
-\glyph{inhibition}            &          &          &          & O & O & O & O & O & O &  \\ \hline 
-\glyph{necessary stimulation} &          &          &          & O & O & O & O & O & O &  \\ \hline 
-\glyph{absolute stimulation}  &          &          &          & O & O & O & O & O & O &  \\ \hline 
-\glyph{absolute inhibition}   &          &          &          & O & O & O & O & O & O &  \\ \hline 
-\glyph{assignment}            &          &          &          & O & O & O & O & O & O &   \\ \hline 
-\glyph{interaction}           &          &          &          & O & O & O & O & O & O &   \\ \hline 
-\glyph{non-interaction}       &          &          &          & O & O & O & O & O & O &   \\ \hline 
-\glyph{phenotype}             &          &          &          & O & O & O & O & O & O &   \\ \hline 
+\glyph{modulation}            &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{stimulation}           &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{inhibition}            &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{necessary stimulation} &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{absolute stimulation}  &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{absolute inhibition}   &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{assignment}            &          &          &   & O & O & O & O & O &    \\ \hline 
+\glyph{interaction}           &          &          &   & O & O & O & O & O &    \\ \hline 
+%\glyph{non-interaction}       &          &          &          & O & O & O & O & O & O &    \\ \hline 
+\glyph{phenotype}             &          &          &   & O & O & O & O & O &    \\ \hline 
 \hline
 \end{tabular}
 
@@ -68,4 +68,4 @@ In addition to the incidence matrix, additional rules refine the syntax of \ERs.
 \item A \glyph{cis} or \glyph{trans} unit of information can only be carried by a relationship involving a single \glyph{entity}.
 \end{enumerate}  
 
-\normalcolor
+%\normalcolor
