@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,9 +13,8 @@
    height="1052.3622"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.47 r22583"
    version="1.0"
-   sodipodi:docbase="/home/lenov/SBGN/cvs/documents/specifications/Level1/images"
    sodipodi:docname="ex-annotation.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/examples/ex-annotation.png"
@@ -43,7 +43,9 @@
      inkscape:window-y="0"
      showguides="true"
      inkscape:guide-bbox="true"
-     showgrid="false">
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:window-maximized="1">
     <sodipodi:guide
        id="guide2990"
        position="1064"
@@ -465,11 +467,6 @@
      inkscape:label="final"
      id="layer2"
      inkscape:groupmode="layer">
-    <path
-       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 495.49253,311.36109 L 544.26376,350.54214"
-       id="path3615"
-       sodipodi:nodetypes="cc" />
     <rect
        rx="19.73135"
        ry="20.619291"
@@ -657,8 +654,8 @@
     <path
        sodipodi:nodetypes="ccccccccc"
        id="path3613"
-       d="M 339.19342,250.46262 L 339.19342,312.24387 L 495.97282,312.24387 L 539.22853,346.94155 L 495.69615,312.24387 L 512.09967,312.24387 L 512.09967,270.74387 L 488.41217,250.46262 L 339.19342,250.46262 z"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       d="m 338.19301,249.20823 0,61.78125 86.45313,0 66.35326,54.46607 -23.1267,-54.46607 43.22656,0 0,-41.5 -23.6875,-20.28125 -149.21875,0 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        id="path3617"
        d="M 487.71856,250.04929 L 487.71856,270.18647 L 511.18142,270.18647 L 487.71856,250.04929 z"
@@ -676,9 +673,9 @@
          sodipodi:role="line">EC 2.7.11.17</tspan></text>
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 323.19342,488.06098 L 323.19342,572.24387 L 495.95645,572.24387 L 495.77708,510.26052 L 472.02401,488.30935 L 323.19342,488.06098 z"
+       d="m 323.19342,488.06098 0,84.18289 172.76303,0 -0.17937,-61.98335 -23.75307,-21.95117 -37.20765,-0.0621 31.97181,-41.85321 -69.17946,41.79111 -74.41529,-0.12418 z"
        id="path3623"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="ccccccccc" />
     <path
        style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.38167191000000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 471.71856,490.04929 L 471.71856,510.18647 L 495.18142,510.18647 L 471.71856,490.04929 z"
@@ -709,9 +706,5 @@
          y="564.44067"
          style="font-size:16px;fill:#ff0000;fill-opacity:1"
          id="tspan3641">kinase activity</tspan></text>
-    <path
-       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:12, 3;stroke-dashoffset:0"
-       d="M 419.09078,488.14004 L 468.64004,448.18096"
-       id="path3631" />
   </g>
 </svg>
