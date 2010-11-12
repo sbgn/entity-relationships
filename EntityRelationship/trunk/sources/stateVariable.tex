@@ -31,34 +31,6 @@ In \SBGNERLone, \glyph{state variables} are also used to describe the localisati
   \label{fig:state-var}
 \end{figure}
 
-A \glyph{state variable} does not necessarily have to be Boolean-valued.  For example, an ion channel can possess several conductance states; a receptor can be inactive, active and desensitized; and so on.  As another example, a \glyph{state variable} ``ubiquitin'' could also carry numerical values corresponding to the number of ubiquitin molecules present in the tail.
-
-The state variable is assigned state-values (see \sect{assignment}). Those values are contained in a glyph similar to the \glyph{stateVariable}, although not carried by another \glyph{EN}. 
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale = 0.5]{examples/ex-stateVariable}
-  \caption{Two examples of \glyph{state variables} used to represent phophorylation of a threonine residue. While only the value ``phosphorylated'' is assigned to T306, the variable T286P can take the values true or false, which allow for representing dephosphorylation as well as phosphorylation.}
-  \label{fig:ex-state-Variable}
-\end{figure}
-
-Two state variables are predefined. The variable \glyph{existence} is used to represent the creation or destruction of entities, as seen on \fig{ex-existence}\label{sec:existence}. \glyph{Existence} can take two values, true (T) or false (F). The variable is represented by a circle vertically divided in two. One hemicircle is black, and the other white. 
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale = 0.5]{examples/ex-existence}
-  \caption{Using the \glyph{state variable} \glyph{existence} to represent the appearance of calcium following a depolarisation.}
-  \label{fig:ex-existence}
-\end{figure}
-
-The variable \glyph{location} is used to represent the physical location of an entity, as seen on \fig{ex-location}\label{sec:location}. \glyph{Location} can take any value, but there can be only one \glyph{location} per entity. The variable is represented by a circle containing two perpendicular segments, an abstract version of the usual slanted pin.
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale = 0.5]{examples/ex-location-2}
-  \caption{Using the \glyph{state variable} \glyph{location} to represent the fact that phosphorylation of glutamate receptors stimulate their incorporation in the post-synaptic density.}
-  \label{fig:ex-location}
-\end{figure}
 
 %\normalcolor
 
