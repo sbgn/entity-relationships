@@ -2,6 +2,8 @@
 % overview
 % =============================================================================
 
+\section{Overview}\label{sec:overview}
+
 To set the stage for what follows in this chapter, we first give a brief overview of some of the concepts in the \ER notation with the help of an example shown in \fig{eg1}. This example will be re-used throughout the description of the graphical symbols (glyphs) used by \SBGNERLone (with a few additions when the concepts are missing in the example) 
 
 \begin{figure}[H]
@@ -12,7 +14,7 @@ To set the stage for what follows in this chapter, we first give a brief overvie
   \label{fig:eg1}
 \end{figure}
  
-The essence of the \ERs is to depict the influences of entities upon the behaviour of others. The entities are things that exist, either on their own or when statements become true. For instance, an entity can exist, different entities can interact, or a value can be assigned to an entity's property. The influences can therefore be understood as logical consequences of this existence. Contrary to the \PDl, where the different processes affect each other, the relationships are independent. On can imagine that each of the relationships represent a specific conclusion of a scientific experience or article. Their addition on a map represents the knowledge we have of the effects of the entities represented upon each other. The independence of relationships in \ERs is the key to avoid the combinatorial explosions inherent with \PDs.
+The essence of the \ERs is to depict the influences of entities upon the behaviour of others. The entities are things that exist, either on their own or when statements become true. For instance, an entity can exist, different entities can interact, or a value can be assigned to an entity's property. The influences can therefore be understood as logical consequences of this existence. Contrary to the \PDl, where the different processes affect each other in a way that the behaviour of the depicted system can only be understood taking into account the whole system, the relationships are essentially independent. On can imagine that each of the relationships represents a specific conclusion of a scientific experience reported in an article. Their addition on a map represents the knowledge we have of the effects of the entities represented upon each other. The independence of relationships in \ERs is the key to avoid the combinatorial explosions inherent to \PDs.
 
 \tab{component-summary} summarizes the different SBGN abstractions described in this chapter.
  
@@ -26,11 +28,11 @@ The essence of the \ERs is to depict the influences of entities upon the behavio
      \textbf{Component} & \textbf{Role} & \textbf{Examples}\\
      \midrule
      Entity node
-     & Something that exists
+     & Something that exists, whether a physical object or sets of objects, or something that happens.  
      & An entity, the result of an interaction \\[0.5em]
  
-     Statement	
-     & Something that can be true or false
+     Statement arc
+     & Something that can be true or false, and affects or relate entities.
      & An interaction between entities, the assignment of a value to a variable \\[0.5em]
  
      Influence
