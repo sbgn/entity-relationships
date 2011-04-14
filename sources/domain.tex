@@ -1,11 +1,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                     Domain
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\color{red}
 
-\subsection{\glyph{Domain} nesting }
+\subsection{Glyph: \glyph{Domain}}
 \label{sec:domain}
 
-A \glyph{domain} is an \glyph{entity} in its own right. \SBGNERLone Version 2 allows \glyph{entities} to be nested . The relationships between the enclosed \glyph{entity} and the enclosing \glyph{entity} is partship. Note that this relation between \glyph{entities} of different levels does not imply anything about \glyph{entities} of the same level. In the \fig{domain}, A is part of X and B is part of X. However, nothing is said about A and B. A and B could be of different nature (transmembrane domain and transduction domain) or could be overlapping (binding domain and catalytic domain sharing some amino-acids). 
+\begin{glyphDescription}
+
+\glyphSboTerm SBO:new
+
+\glyphContainer A domain is represented by a subsection of the carrying \glyph{entity} bordered by two lines 
+
+\glyphLabel A \glyph{domain} is identified by a label placed in an unbordered box containing a string of characters.  The characters can be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the center of the container.  The label may spill outside of the container.
+
+\glyphAux A \glyph{domain} can carry state variables that can add information about its state (\sect{stateVariable}).  A state variable is represented by a rectangle capped with two hemi-circles, with the long axis of this  ``stadium'' placed on the border of the \glyph{domain}'s container, as illustrated in \fig{domain}.  The label of the state variable (which can precise the type of characteristic represented by the state variable, residue type, residue number etc.) is written within the state variable's container. \glyph{Domains} can carry the particular \glyph{state variable} location (\sect{location}). However they cannot carry the particular \glyph{state variable} existence (\sect{existence}), that can only be carried by the main subsection of an \glyph{entity}.
+
+A \glyph{domain} can carry one or several \glyph{units of information} (\sect{unitInfo}). The center of the bounding box of a \glyph{unit of information} is located on the mid-line of the border of the macromolecule.
+
+\end{glyphDescription}
 
 \begin{figure}[H]
   \centering
@@ -14,12 +27,10 @@ A \glyph{domain} is an \glyph{entity} in its own right. \SBGNERLone Version 2 al
   \label{fig:domain}
 \end{figure}
 
-As any other \glyph{entity}, a \glyph{domain} can carry \glyph{state variables} and \glyph{units of information}. It can participate to \glyph{interactions}, and generate \glyph{influences}. For more information about the use and interpretation of domains, see \sect{semanticsDomain} 
-
 \begin{figure}[H]
   \centering
   \includegraphics[scale = 0.5]{examples/ex-domain}
-  \caption{Illustration of the use of \glyph{domains}. This map contains five \glyph{entities}. Three are top-level, while the \glyph{entities} ``res10-180'' and ``auto-inhibitory'' are domains of the \glyph{entity} ``CaMKII''. The controlled terms carried by the \glyph{units of information} tell us that those \glyph{domains} are a catalytic domain and a binding site respectively.	As far as the relationships with the \glyph{entities} ``calmoduline'' and ``target'' are concerned, the interpretation does not differ from the one we would derive from a map where all the \glyph{entities} would be entirely separated. However the regulation of localisation of ``CaMKII'' to the post-synaptic densite (PSD) by phosphorylation of threonine 286 also causes the localisation of ``res10-180'' and ``auto-inhibitory'', even if none carry the \glyph{state variables} involved.}
+  \caption{Examples of \glyph{domains} of the entity CaMKII, representing the catalytic and regulatory portions of the enzyme. The leftward portion of the entity represent the whole entity.}
   \label{fig:ex-domain}
 \end{figure}
 

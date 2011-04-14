@@ -27,15 +27,13 @@ Requirements are rules which \textbf{must} be fulfilled by a layout to produce a
 
 \subsubsection{Node-node overlaps}
 
-Nodes are only allowed to overlap in the case that the overlapping nodes define a glyph. Examples are stacking auxiliary items such as an \glyph{unit of information} on top of an \glyph{entity}, or an \glyph{interaction} and nesting \glyph{entities} to represent domains (\sect{domain}). In other cases, nodes are not allowed to overlap (\fig{layout1}). This includes the touching of nodes. 
+Nodes are only allowed to overlap in the case that the overlapping nodes define a glyph. Examples are stacking auxiliary items such as an \glyph{unit of information} on top of an \glyph{entity}, or an \glyph{interaction}. In other cases, nodes are not allowed to overlap (\fig{layout1}). This includes the touching of nodes. 
 
 \begin{figure}[h!]
   \centering
   \includegraphics[scale=0.3]{images/layout-node-node}
   \caption{Nodes must not overlap.}\label{fig:layout1}
 \end{figure}
-
-In the case of domain nesting, the internal \glyph{entities} must be completely included in the enclosing \glyph{entities}.
 
 \subsubsection{Node-edge crossing}\label{crosEdNoRe}
 
