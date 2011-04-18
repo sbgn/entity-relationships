@@ -68,13 +68,28 @@ The use of cis and trans units of information on a combination of relationships 
  \item The unit of information ``cis'' or ``trans'' carried by an \glyph{influence} targeting an \glyph{interaction} refers to the origin of the \glyph{influence} and all the relevant \glyph{interactors} targeted by the \glyph{interaction} (see \sect{SyntacticRules}).
 \end{itemize}
 
-\subsection{Cis and trans relationships}\label{sec:semanticsDomain}
+\subsection{Use of nested entities}\label{sec:semanticsDomain}
 
-% No functional relationship between container and domains. All relationships must be explicit 
+\noindent
+The relationship between an \glyph{entity} and the \glyph{entities} it contains is a partonomy (meronymy). Any instance of the contained \glyph{entity} is part of an instance of the containing \glyph{entity}.
 
-% location: Container control domains, domain does not control container
+\noindent
+No functional relationship are implied between \glyph{entities} that are part of the same \glyph{entity}. Such relationships if any must be explicit. In particular, there is no implied disjunction.
 
-% existence: Container control domains, domain does not control container
+\noindent
+\glyph{Entity nesting} is transitive. If $E1$ contains $E2$ and $E2$ contains $E3$, then any instance of $E3$ is part of an instance of $E2$ and any instance of $E2$ is part of an instance of $E1$, therefore any instance of $E3$ is part of an instance of $E1$.
+
+\noindent
+The assignment of a certain value to the variable \glyph{location} of the containing \glyph{entity} effectively assigns this value to the variable \glyph{location} of all contained \glyph{entities}. For instance, a protein that translocates from the cytosol to the nucleus causes the translocation of all its domains.
+
+\noindent
+The assignment of a certain value to the variable \glyph{location} of a contained \glyph{entity} does not assign this value to the variable \glyph{location} of the containing \glyph{entity}. For instance a protein domain can translocate from the cytosol into the plasma membrane, but the whole protein still belong to the cytosol. 
+
+\noindent
+The assignment of a certain value to the variable \glyph{existence} of the containing \glyph{entity} effectively assigns this value to the variable \glyph{existence} of all contained \glyph{entities}. For instance, the degradation of a protein implies the degradation of all its domains.
+
+\noindent
+The assignment of a certain value to the variable \glyph{existence} of a contained \glyph{entity} does not assign this value to the variable \glyph{existence} of the containing \glyph{entity}. For instance the degradation of a protein domain does not imply the degradation of the entire protein.
 
 \subsection{(In)Validation of ER maps}
 
