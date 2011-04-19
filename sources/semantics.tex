@@ -83,13 +83,28 @@ No functional relationship are implied between \glyph{entities} that are part of
 The assignment of a certain value to the variable \glyph{location} of the containing \glyph{entity} effectively assigns this value to the variable \glyph{location} of all contained \glyph{entities}. For instance, a protein that translocates from the cytosol to the nucleus causes the translocation of all its domains.
 
 \noindent
-The assignment of a certain value to the variable \glyph{location} of a contained \glyph{entity} does not assign this value to the variable \glyph{location} of the containing \glyph{entity}. For instance a protein domain can translocate from the cytosol into the plasma membrane, but the whole protein still belong to the cytosol. 
+The assignment of a certain value to the variable \glyph{location} of a contained \glyph{entity} does not assign this value to the variable \glyph{location} of the containing \glyph{entity}. For instance a protein domain can translocate from the cytosol into the plasma membrane, but the whole protein still belong to the cytosol.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.3]{images/nesting-location}
+  \caption{On the left, the entity Y causes the whole entity X to translocate to the location c, including its A and B components. On the right, only the entity A is translocated, without effect on B and X.}
+  \label{fig:nesting-location}
+\end{figure}
+
 
 \noindent
 The assignment of a certain value to the variable \glyph{existence} of the containing \glyph{entity} effectively assigns this value to the variable \glyph{existence} of all contained \glyph{entities}. For instance, the degradation of a protein implies the degradation of all its domains.
 
 \noindent
 The assignment of a certain value to the variable \glyph{existence} of a contained \glyph{entity} does not assign this value to the variable \glyph{existence} of the containing \glyph{entity}. For instance the degradation of a protein domain does not imply the degradation of the entire protein.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.3]{images/nesting-location}
+  \caption{On the left, the entity Y causes the disappearance of the whole entity X, including its A and B components. On the right, only the entity A disappear, without effect on B and X as a whole.}
+  \label{fig:nesting-existence}
+\end{figure}
 
 \subsection{(In)Validation of ER maps}
 
