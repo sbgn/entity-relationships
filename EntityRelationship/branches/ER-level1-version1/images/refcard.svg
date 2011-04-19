@@ -13,11 +13,11 @@
    height="744.09448"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.47 r22583"
+   inkscape:version="0.48.0 r9654"
    version="1.0"
    sodipodi:docname="refcard.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/images/refcard.png"
+   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/branches/ER-level1-version1/images/refcard.png"
    inkscape:export-xdpi="150"
    inkscape:export-ydpi="150">
   <defs
@@ -77,13 +77,13 @@
      inkscape:cx="480.29339"
      inkscape:cy="347.39611"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g7108"
      width="1052.3622px"
      height="744.09448px"
-     inkscape:window-width="1024"
-     inkscape:window-height="749"
-     inkscape:window-x="-5"
-     inkscape:window-y="0"
+     inkscape:window-width="1280"
+     inkscape:window-height="779"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
      showguides="true"
      inkscape:guide-bbox="true"
      showgrid="true"
@@ -136,6 +136,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -305,7 +306,7 @@
          id="g7081">
         <path
            transform="matrix(0.747276,-1.0890006e-3,3.3561651e-4,0.4026207,-47.795087,47.520128)"
-           d="m 194.74566,496.53679 25.57877,44.16334 -25.45719,44.23354 -51.03596,0.0702 -25.57877,-44.16334 25.45719,-44.23354 51.03596,-0.0702 z"
+           d="m 194.74566,496.53679 25.57877,44.16334 -25.45719,44.23354 -51.03596,0.0702 -25.57877,-44.16334 25.45719,-44.23354 z"
            inkscape:randomized="0"
            inkscape:rounded="0"
            inkscape:flatsided="true"
@@ -336,12 +337,12 @@
          id="text16341"
          y="268.75418"
          x="130.94966"
-         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
            y="268.75418"
            x="130.94966"
            id="tspan16343"
-           sodipodi:role="line">observable</tspan></text>
+           sodipodi:role="line">phenotype</tspan></text>
     </g>
     <g
        id="g7116"
