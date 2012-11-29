@@ -5,28 +5,7 @@
 %% ----------------------------------------------------------------------------
 
 % Warning: more \usepackage commands are used later in this file.
-
-\usepackage[a4paper,centering,margin=1in,marginparwidth=0.75in]{geometry}
-\usepackage[utf8]{inputenc} % unicode support
-\usepackage{shadow}
-\usepackage{supertabular}
-\usepackage{multirow}
-\usepackage{multicol}
-\usepackage{enumitem}
-\usepackage{lscape}
-\usepackage{layout}
-\usepackage{array}
-\usepackage{fancybox}
-\usepackage{xspace}
 \usepackage{ifpdf}
-\usepackage{float}
-\usepackage[american]{varioref}
-\usepackage[normalem]{ulem}
-\usepackage{eso-pic}                   
-
-% Hyperref, xcolor, graphicx and possibly others have a flag "pdftex"
-% that needs to be used if pdflatex is being used.  The following puts
-% these inside a conditional for that situation.
 
 \ifpdf
   % Case: using pdflatex
@@ -42,7 +21,7 @@
   \usepackage[pdftex,breaklinks=true,colorlinks=true,plainpages=false,
   pdfpagelabels,bookmarks=true,bookmarksopen=true,bookmarksopenlevel=2,
   pdfhighlight=/O,linkcolor={RoyalBlue},citecolor={RoyalBlue},
-  pagecolor={RoyalBlue},urlcolor={RoyalBlue}]{hyperref}
+  urlcolor={RoyalBlue}]{hyperref}
 
   \usepackage[pdftex,rgb,dvipsnames,svgnames,hyperref,table]{xcolor}
 
@@ -56,6 +35,30 @@
   \usepackage[rgb,dvipsnames,svgnames,hyperref,table]{xcolor}
 
 \fi
+
+
+\usepackage[a4paper,centering,margin=1in,marginparwidth=0.75in]{geometry}
+\usepackage[utf8]{inputenc} % unicode support
+\usepackage{shadow}
+\usepackage{supertabular}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{lscape}
+\usepackage{layout}
+\usepackage{array}
+\usepackage{fancybox}
+\usepackage{xspace}
+\usepackage{float}
+\usepackage[american]{varioref}
+\usepackage[normalem]{ulem}
+\usepackage{eso-pic}                   
+
+% Hyperref, xcolor, graphicx and possibly others have a flag "pdftex"
+% that needs to be used if pdflatex is being used.  The following puts
+% these inside a conditional for that situation.
+
+
 
 % Package 'rotating' needs to come after the others.
 
