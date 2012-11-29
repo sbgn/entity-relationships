@@ -2,19 +2,40 @@
 % overview
 % =============================================================================
 
-\section{Overview}\label{sec:overview}
+\section{Overview of the Entity Relationship language}\label{sec:overview}
 
-To set the stage for what follows in this chapter, we first give a brief overview of some of the concepts in the \ER notation with the help of an example shown in \fig{eg1}. This example will be re-used throughout the description of the graphical symbols (glyphs) used by \SBGNERLone (with a few additions when the concepts are missing in the example) 
+To set the stage for what follows in this chapter, we first give a brief overview of some of the concepts in the \ER notation with the help of an example shown in \fig{eg1}. 
+
+\begin{figure}[H]
+  \centering
+  \vspace*{-0.75em}
+  \includegraphics[scale=0.45]{examples/HelloWorld}
+   \caption{This example of an \ERm represent an entity 1 interacting with another entity 2. The assignment of value 1 to the state variable of the entity 1 stimulates the interaction.}
+  \label{fig:eg1}
+\end{figure}
+
+The essence of the \ERs is to depict the influences of entities upon the behaviour of others. The entities are things that exist, either on their own, or when statements become true. For instance, an entity can exist (such as ``entity 1'' in \fig{eg1}), different entities can interact (such as ``entity 1'' and ``entity 2'' in \fig{eg1}), or a value can be assigned to an entity's property (such as ``value 1'' to property ``var'' of ``entity 1'' in \fig{eg1}). The influences can therefore be understood as logical consequences of this existence. The stimulation of the interaction between ``entity 1'' and ``entity 2'' in \fig{eg1} takes place if `value 1'' is really assigned to property ``var'' of ``entity 1''. The existence of the assignment is represented by the black dot (called \glyph{outcome}). On the contrary to the \PDl, where the different processes affect each other in a way that the behaviour of the depicted system can only be understood taking into account the whole system, the relationships are essentially independent. On can imagine that each of the relationships represents a specific conclusion of a scientific experience reported in an article. Their addition on a map represents the knowledge we have of the effects of the entities represented upon each other. In  \fig{eg1}, we have three statements: 
+
+\begin{itemize}
+ \item ``entity 1'' can interact with ``entity 2''.
+ \item property ``var'' of ``entity 1'' can take the value ``value 1''.
+ \item if ``var'' is set to ``value 1'', the interaction between ``entity 1'' and ``entity 2'' is stimulated.
+\end{itemize}
+
+
+The independence of relationships in \ERs is the key to avoid the combinatorial explosions inherent to \PDs.
+
+A more complex and realistic example of \ERm is shown in \fig{eg2}. This example will be re-used throughout the description of the graphical symbols (glyphs) used by \SBGNERLone (with a few additions when the concepts are missing in the example) 
 
 \begin{figure}[H]
   \centering
   \vspace*{-0.75em}
   \includegraphics[scale=0.45]{examples/CaMKII-intro}
    \caption{This example of an \ERm depicts the effect of a depolarisation (dV) on the intracellular calcium, that binds to calmodulin, that itself binds to the calcium/calmoduline kinase II (CaMKII). The binding of calmodulin inhibits the folding of CaMKII monomer on itself, thus relieving the inhibition on the kinase activity. The phosphorylation of the glutamate receptors finally leads to the Long Term Potentiation (LTP) of the synapses. In addition, the map shows the effect of trans-phosphorylation on threonine 286, that makes the enzyme constitutively active, and on threonine 306, that renders the kinase insensitive to calmodulin, as well as the dimerisation of the kinase.}
-  \label{fig:eg1}
+  \label{fig:eg2}
 \end{figure}
  
-The essence of the \ERs is to depict the influences of entities upon the behaviour of others. The entities are things that exist, either on their own or when statements become true. For instance, an entity can exist, different entities can interact, or a value can be assigned to an entity's property. The influences can therefore be understood as logical consequences of this existence. Contrary to the \PDl, where the different processes affect each other in a way that the behaviour of the depicted system can only be understood taking into account the whole system, the relationships are essentially independent. On can imagine that each of the relationships represents a specific conclusion of a scientific experience reported in an article. Their addition on a map represents the knowledge we have of the effects of the entities represented upon each other. The independence of relationships in \ERs is the key to avoid the combinatorial explosions inherent to \PDs.
+
 
 \tab{component-summary} summarizes the different SBGN abstractions described in this chapter.
  
