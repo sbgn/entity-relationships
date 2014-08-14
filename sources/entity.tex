@@ -12,32 +12,37 @@
 
 \glyphSboTerm SBO:0000245 ! entity 
 
-\glyphContainer An \glyph{entity} is represented by a rectangular container with rounded corners, as illustrated in \fig{entity}.
+\glyphContainer An \glyph{entity} is represented by a rectangular container with rounded corners, as illustrated in \fig{ex-entity}.
 
 \glyphLabel An \glyph{entity} is identified by a label placed in an unbordered box containing a string of characters.  The characters can be distributed on several lines to improve readability, although this is not mandatory.  The center of the label box must be located in the container. The label may spill outside of the container. 
 
-\glyphAux An \glyph{entity} might carry state variables that can add information about its state (\sect{stateVariable}).  A state variable is represented by a ``stadium'', that is a rectangle capped with two hemi-circles, with the long axis of this stadium placed on the border of the \glyph{entity}'s container, as illustrated in \fig{entity}.  The label of the state variable (which can precise the type of characteristic represented by the state variable, residue type, residue number etc.) is written within the state variable's container. Particular \glyph{state variables} are the existence (\sect{existence}) and the location (\sect{location}).
+\glyphAux An \glyph{entity} might carry state variables that can add information about its state (\sect{stateVariable}).  A state variable is represented by a ``stadium'', that is a rectangle capped with two hemi-circles. The center of the bounding box of \glyph{state variables} is located on the border and the long axis of this stadium is aligned with that part of the border of the \glyph{entity}'s container, as illustrated in \fig{ex-entity}.  The label of the state variable (which can precise the type of characteristic represented by the state variable, residue type, residue number etc.) is written within the state variable's container. Particular \glyph{state variables} are the existence (\sect{existence}) and the location (\sect{location}).
 
-An \glyph{entity} can carry one or several \glyph{units of information} (\sect{unitInformation}).  Particular \glyph{units of information} are available for describing the material type (\sect{material-types-cv}) and the conceptual type (\sect{conceptual-types-cv}) of a macromolecule.  The center of the bounding box of a \glyph{unit of information} is located on the mid-line of the border of the macromolecule.
+An \glyph{entity} can carry one or several \glyph{units of information} (\sect{unitInformation}).  Particular \glyph{units of information} are available for describing the material type (\sect{material-types-cv}) and the conceptual type (\sect{conceptual-types-cv}) of a macromolecule.  The center of the bounding box of a \glyph{unit of information} is located on the border and the long axis of this stadium is aligned with that part of the border of the \glyph{entity}'s container.
 
 \end{glyphDescription}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale = 0.3]{images/entity}
-  \caption{The \ER glyph for \glyph{entity}, showing a unit of information (\sect{unitInformation}), and two state variables (\sect{stateVariable}).}
-  \label{fig:entity}
-\end{figure}
+%\begin{figure}[H]
+%  \centering
+%  \includegraphics[scale = 0.3]{images/entity}
+%  \caption{The \ER glyph for \glyph{entity}, showing a unit of information (\sect{unitInformation}), and two state variables (\sect{stateVariable}).}
+%  \label{fig:entity}
+%\end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[scale = 0.5]{examples/ex-entity}
-  \caption{Example of an \glyph{entity} named CaMKII, that carries two \glyph{state variables} representing the phosphorylated residu threonine 286, and the residu threonine 306, a \glyph{unit of information} precising its material status (protein).}
+  \caption{Example of an \glyph{entity} named CaMKII, that carries two \glyph{state variables} representing the phosphorylated residue threonine 286, and the residu threonine 306, a \glyph{unit of information} precising its material status (protein).}
   \label{fig:ex-entity}
 \end{figure}
 
-The granularity of the representation, that is what a given \glyph{entity} actually represents, is let to the person generating the map. For instance, one could choose to represent phosphorylated and non-phosphorylated forms of a protein using a single \glyph{entity}, carrying a \glyph{state variable} representing the phosphorylation. The phosphorylated form would be represented by the \glyph{outcome} located on the \glyph{assignment}. Alternatively one could use two separate entities, carrying the \glyph{existence} \glyph{state variable}. The phosphorylated form would be represented by the \glyph{entity}.
+The granularity of the representation, that is what a given \glyph{entity} actually represents, is let to the person generating the map. For instance (\fig{entity-granularity}), one could choose to represent phosphorylated and non-phosphorylated forms of a protein using a single \glyph{entity}, carrying a \glyph{state variable} representing the phosphorylation. The phosphorylated form would be represented by the \glyph{outcome} located on the \glyph{assignment}. Alternatively one could use two separate entities, carrying the \glyph{existence} \glyph{state variable}. The phosphorylated form would be represented by the \glyph{entity}.
 
-[ \fxwarning{ Put an example showing the alternative above, plus a kinase phosphorylating the entities, and an influence coming from the phosphorylated forms}	]
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{images/entity-granularity}
+  \caption{The two ways to represent phosphorylation of the protein: by assigning ``P'' to the state variable (left), and by setting existence to phosphorylated \glyph{entity} (right).}
+  \label{fig:entity-granularity}
+\end{figure}
 
 %\normalcolor
