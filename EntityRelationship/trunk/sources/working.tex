@@ -2,4 +2,8 @@
 
 \section{Generics and instances}\label{sec:instances}
 
-In \SBGNERLone, an entity is represented only once. One cannot explicitely represent different instances of the ``same'' entity. Several instances can be infered from relationships acting in \glyph{trans}. However, one cannot generally express the fact that several relationships involving the same entity actually involve the same, or different, instances ot this entity. This problem is tied to the problem of generics. Indeed, if one discriminate between classes of instances, how can one represent, in the same map, the generic entity?
+In \SBGNERLone, an entity is represented only once. One cannot explicitely represent different instances of the ``same'' entity. Several instances can be infered from relationships acting in \glyph{trans}. However, one cannot generally express the fact that several relationships involving the same entity actually involve the same, or different, instances of this entity. This problem is tied to the problem of generics. Indeed, if one discriminate between classes of instances, how can one represent, in the same map, the generic entity?
+
+\section{Synchronous events}\label{sec:syncEvents}
+
+In \SBGNERLone, each influence arc started from its own outcome and so asynchronous . There is a need to represent that two events happened simultaneously or caused by one outcome, for example to represent chemical reaction we need to show that destruction of substrates and creation of products happened simultaneously.

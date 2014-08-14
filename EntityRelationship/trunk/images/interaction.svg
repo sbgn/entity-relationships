@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,12 +13,11 @@
    height="744.09448"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.48.2 r9819"
    version="1.0"
-   sodipodi:docbase="/home/lenov/SBGN/cvs/documents/specifications/Level1/images"
    sodipodi:docname="interaction.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/EntityRelationship/trunk/images/interaction.png"
+   inkscape:export-filename="/Users/asorokin/Documents/Projects/Notation/sbgn-code/EntityRelationship/trunk/images/interaction.png"
    inkscape:export-xdpi="150"
    inkscape:export-ydpi="150">
   <defs
@@ -86,13 +86,14 @@
      inkscape:current-layer="layer2"
      width="1052.3622px"
      height="744.09448px"
-     inkscape:window-width="1680"
-     inkscape:window-height="1031"
+     inkscape:window-width="1280"
+     inkscape:window-height="756"
      inkscape:window-x="-5"
      inkscape:window-y="0"
      showguides="true"
      inkscape:guide-bbox="true"
-     showgrid="false">
+     showgrid="false"
+     inkscape:window-maximized="0">
     <sodipodi:guide
        orientation="vertical"
        position="-119.32326,453.16024"
@@ -114,6 +115,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -371,15 +373,15 @@
        ry="0" />
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:cmex10;-inkscape-font-specification:cmex10"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:cmex10;-inkscape-font-specification:cmex10"
        x="675.4007"
-       y="130.74139"
+       y="128.74139"
        id="text6411"><tspan
          sodipodi:role="line"
          id="tspan6413"
          x="675.4007"
-         y="130.74139"
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono">CIS</tspan></text>
+         y="128.74139"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono">cis</tspan></text>
     <path
        transform="translate(228.29573,-147.12105)"
        d="M 389.91888,290.53598 A 10.101525,10.101525 0 1 1 369.71583,290.53598 A 10.101525,10.101525 0 1 1 389.91888,290.53598 z"

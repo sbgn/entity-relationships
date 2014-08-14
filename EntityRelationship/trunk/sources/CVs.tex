@@ -6,7 +6,7 @@
 
 Some glyphs in SBGN \ERs can contain particular kinds of textual annotations conveying information relevant to the purpose of the glyph.  These annotations are carried by \glyph{units of information} (\sect{unitInformation}) or \glyph{state variable values} (\sect{stateVariable}).
 
-The text that appears as the unit of information decorating an entity must be prefixed with a controlled vocabulary term indicating the type of information being expressed.  The prefixes are mandatory.  Without the use of controlled vocabulary prefixes, it would be necessary to have different glyphs to indicate different classes of information; this would lead to an explosion in the number of symbols needed.
+The text that appears as the unit of information decorating an entity must be prefixed with a controlled vocabulary term indicating the type of information being expressed.  The prefixes are mandatory.  Without the use of controlled vocabulary prefixes, it would be necessary to have different glyphs to indicate different classes of information; this would lead to an explosion in the number of symbols needed. There is no more than one \glyph{units of information} per controlled vocabulary allowed for any \glyph{Entity}. So, for example, one \glyph{units of information} of material type and one \glyph{units of information} of conceptual type.
 
 In the rest of this section, we describe the controlled vocabularies (CVs) used in \SBGNERLone.  In each case, some CV terms are predefined by SBGN, but unless otherwise noted, \emph{they are not the only terms permitted}.  Authors may use other CV values not listed here, but in such cases, they should explain the terms' meanings in a figure legend or other text accompanying the map.
 
@@ -97,7 +97,7 @@ A common reason for the introduction of state variables on an entity is to allow
 \subsection{Miscellaneous terms}
 \label{sec:miscellaneous-cv}
 
-\SBGNERLone requires several reserved characters. A special unit of information usable on interactions describe the number of identical interactors involved. Note that the value is a unitary number, and not (for example) a range.  There is no provision in \SBGNPDLone for specifying a range in this context because it leads to problems of entity identifiability. Other reserved characters are used in state variable assignments to represent truth or falsehood. Two reserved words are used in units of information carried by relationships: cis and trans. 
+\SBGNERLone requires several reserved characters. A special unit of information usable on interactions describe the number of identical interactors involved. Note that the value is a unitary number, and not (for example) a range.  There is no provision in \SBGNPDLone for specifying a range in this context because it leads to problems of entity identifiability. Other reserved characters (see \tab{reserved-words}) are used in state variable assignments to represent truth or falsehood (T and F). Two reserved words are used in units of information carried by relationships: \emph{cis} and \emph{trans}. 
 
 \begin{table}[h]
   \centering
@@ -112,8 +112,8 @@ A common reason for the introduction of state variables on an entity is to allow
     trans          & trans & SBO:0000415\\
     \bottomrule
   \end{tabular}
-  \caption{Miscellaneous controlled terms. For the cardinality, \texttt{\#} stands for a number, for example, ``\texttt{5}''.}
-  \label{tab:cardinality-cv}
+  \caption{Miscellaneous controlled terms  (\sect{miscellaneous-cv}). For the cardinality, \texttt{\#} stands for a number, for example, ``\texttt{5}''.}
+  \label{tab:reserved-words}
 \end{table}
 
 %\normalcolor

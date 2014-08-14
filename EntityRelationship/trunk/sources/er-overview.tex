@@ -14,7 +14,7 @@ To set the stage for what follows in this chapter, we first give a brief overvie
   \label{fig:eg1}
 \end{figure}
 
-The essence of the \ERs is to depict the influences of entities upon the behaviour of others. The entities are things that exist, either on their own, or when statements become true. For instance, an entity can exist (such as ``entity 1'' in \fig{eg1}), different entities can interact (such as ``entity 1'' and ``entity 2'' in \fig{eg1}), or a value can be assigned to an entity's property (such as ``value 1'' to property ``var'' of ``entity 1'' in \fig{eg1}). The influences can therefore be understood as logical consequences of this existence. The stimulation of the interaction between ``entity 1'' and ``entity 2'' in \fig{eg1} takes place if `value 1'' is really assigned to property ``var'' of ``entity 1''. The existence of the assignment is represented by the black dot (called \glyph{outcome}). On the contrary to the \PDl, where the different processes affect each other in a way that the behaviour of the depicted system can only be understood taking into account the whole system, the relationships are essentially independent. On can imagine that each of the relationships represents a specific conclusion of a scientific experience reported in an article. Their addition on a map represents the knowledge we have of the effects of the entities represented upon each other. In  \fig{eg1}, we have three statements: 
+The essence of the \ERs is to depict the influences of entities upon the behaviour of others. The entities are classes of things that exist, either on their own, or when statements become true. For entity to be true at least one instance of it should exists otherwise entity will be false. For instance, an entity can exist (such as ``entity A'' in \fig{eg1}), instances of different entities can interact (such as ``entity A'' and ``entity B'' in \fig{eg1}), or a value can be assigned to a property of some instance of an entity (such as ``value 1'' to property ``var'' of ``entity A'' in \fig{eg1}). The influences can therefore be understood as logical consequences of existence of its instances. The stimulation of the interaction between ``entity A'' and ``entity B'' in \fig{eg1} takes place if `value 1'' is really assigned to property ``var'' of some instance of the ``entity A''. The existence of the assignment (set of instances where value is really assigned to the property) is represented by the black dot (called \glyph{outcome}). On the contrary to the \PDl, where the different processes affect each other in a way that the behaviour of the depicted system can only be understood taking into account the whole system, the relationships are essentially independent. One can imagine that each of the relationships represents a specific conclusion of a scientific experience reported in an article. Their addition on a map represents the knowledge we have of the effects of the entities represented upon each other. In  \fig{eg1}, we have three statements: 
 
 \begin{itemize}
  \item ``entity 1'' can interact with ``entity 2''.
@@ -49,7 +49,7 @@ A more complex and realistic example of \ERm is shown in \fig{eg2}. This example
      \textbf{Component} & \textbf{Role} & \textbf{Examples}\\
      \midrule
      Entity node
-     & Something that exists, whether a physical object or sets of objects, or something that happens.  
+     & Something that exists, whether a physical object or sets of objects.  
      & An entity, the result of an interaction \\[0.5em]
  
      Statement arc
