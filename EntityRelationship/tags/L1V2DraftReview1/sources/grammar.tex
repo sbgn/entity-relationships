@@ -1,0 +1,30 @@
+\chapter{Grammar of Entity Relationships}
+\label{chp:grammar}
+
+\section{Overview}
+
+In this chapter, we describe how the glyphs of \SBGNERLone can be combined
+to make a valid \ERm{}. To do this, we must at the very least
+define what glyphs can be connected to each other. This is called
+syntax. Next, we must define additional rules, such as whether duplicate symbols are permitted. In addition, we must define what the notation ``means'' --- how does it represent a body of biological knowledge? This is semantics, and it is essential if a reader is to understand an SBGN map without external help, and a writer is to create a map that reflects his understanding of a biological system.
+
+In this section we start off by describing the concepts of the
+\ERl{}. A detailed description of the syntax is provided next,
+followed by a description of the syntactic rules of the language.
+
+\section{Concepts}
+
+The SBGN \ERl{} is more than a collection of symbols. It is a
+visual language that uses specific abstractions to describe the
+biological processes that make up e.g. a quantitative model, a signalling pathway or a metabolic network. This abstraction is the semantics of SBGN, and to describe it requires more than a definition
+of the symbols and syntax of the language. We first need to define the
+abstractions we are using.
+
+SBGN \ERs{} describe biological interactions involving biological entities. An \glyph{entity node} (\sect{ENs}), such as a molecule, influences the behaviour of other \glyph{entity nodes} via a relationships. 
+
+It may be convenient to think of a SBGN \ERs{} as listing independent rules that describe influences between \glyph{entity nodes}. Map can then be analysed with ``what if?'' queries. 
+
+\input{sources/syntax.tex}
+\input{sources/semantics.tex}
+
+

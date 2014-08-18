@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                     State variable
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\color{blue}
+
+\subsection{Glyph: \glyph{State variable}}
+\label{sec:stateVariable}
+
+Many biological entities such as molecules can exist in different \emph{states}, meaning different physical or informational configurations.  These states can arise for a variety of reasons.  For example, macromolecules can be subject to post-synthesis modifications, wherein residues of the macromolecules (amino acids, nucleosides, or glucid residues) are modified through covalent linkage to other chemicals.  Other examples of states are alternative conformations as in the closed/open/desensitized conformations of a transmembrane channel, and the active/inactive forms of an enzyme.
+
+SBGN provides a means of associating one or more \glyph{state variables} with an entity; each such variable can be used to represent a dimension along which the state of the overall entity can vary.  When an entity can exist in different states, the state of the instance of the entity % (\ie the SBGN object) 
+can be described by the current values of all its \glyph{state variables}, and the values of the \glyph{state variables} of all its possible components, recursively.
+
+In \SBGNERLone, \glyph{state variables} are also used to describe the localisation in compartments (a transport is therefore described as a state variable assignment, see \sect{assignment}).
+
+\begin{glyphDescription}
+
+\glyphSboTerm Not applicable.
+
+\glyphContainer A \glyph{state variable} is represented by a ''stadium'' container, that is two semicircles of same radius joined by parallel segments, as shown in \fig{state-var}.  The parallel segment axis should be tangent to the border of the glyph of the \glyph{EN} being modified by the \glyph{state variable}. The center of the bounding box of a \glyph{state variable} should be located on the mid-line of the border of the \glyph{EN}.
+
+\glyphLabel A \glyph{state variable} is identified by a label placed in an unbordered box containing a string of characters.  The characters can be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the center of the container.  The label may spill outside of the container.
+
+\glyphAux A \glyph{state variable} does not carry any auxiliary items.  
+
+\end{glyphDescription}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.3]{images/stateVariable}
+  \caption{The \ER glyph for \glyph{state variable}. From left to right, horizontal state variable, vertical state variable, \glyph{location}, \glyph{existence}.}
+  \label{fig:state-var}
+\end{figure}
+
+Two state variables are predefined. The variable \glyph{existence} is used to represent the creation or destruction of entities, as seen on \fig{ex-existence}\label{sec:existence}. \glyph{Existence} can take two values, true (T) or false (F). The variable is represented by a circle vertically divided in two. One hemicircle is black, and the other white. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{examples/ex-existence}
+  \caption{Using the \glyph{state variable} \glyph{existence} to represent the appearance of calcium following a depolarisation.}
+  \label{fig:ex-existence}
+\end{figure}
+
+The variable \glyph{location} is used to represent the physical location of an entity, as seen on \fig{ex-location}\label{sec:location}. \glyph{Location} can take any value, but there can be only one \glyph{location} per instance of an entity. The variable is represented by a circle containing two perpendicular segments, an abstract version of the usual slanted pin.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{examples/ex-location-2}
+  \caption{Using the \glyph{state variable} \glyph{location} to represent the fact that phosphorylation of glutamate receptors stimulate their incorporation in the post-synaptic density.}
+  \label{fig:ex-location}
+\end{figure}
+
+%\normalcolor
+
+% The following is for [X]Emacs users.  Please leave in place.
+% Local Variables:
+% TeX-master: "../sbgn_ER-level1"
+% End:
+
