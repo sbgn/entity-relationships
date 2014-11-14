@@ -5,15 +5,15 @@
 
 \subsection{Entities and states}
 
-An \glyph{entity} (\sect{entity}) represents set of individual instances of some kind (molecules, agents etc). The difference from \SBGNPDLone \glyph{entity pool node} is that \glyph{entity} instances are independent, while \glyph{entity pool node} form one nonseparable object acting as a whole. Set of \glyph{state variables} (\sect{stateVariable}) and their \glyph{values} (\sect{variableValue}) describe a part of the \glyph{entity} instances state space. The  \glyph{entity}, or  interaction \glyph{outcome} (\sect{outcome}) acquire the true state if the set of entity instances compatible with the \glyph{entity} state, or  actualisation of interaction is non-empty. 
+An \glyph{entity} (\sect{entity}) represents a set of individual instances of some kind (molecules, agents etc). The difference from \SBGNPDLone \glyph{entity pool node} is that \glyph{entity} instances are independent, while \glyph{entity pool node} form one nonseparable object acting as a whole. A set of \glyph{state variables} (\sect{stateVariable}) and their \glyph{values} (\sect{variableValue}) describe a part of the \glyph{entity} instances state space. The  \glyph{entity}, or  interaction \glyph{outcome} (\sect{outcome}) acquire the true state if the set of entity instances compatible with the \glyph{entity} state, or  actualisation of interaction is non-empty. 
 
  
 \subsection{Statements}
 
-An \glyph{interaction} (\sect{interaction}) linking the \glyph{interactors} $A$ and $B$ means: ``any instance of $A$ can interacts with instances of $B$''. An \glyph{outcome} on an \glyph{interaction} represents the cases when the statement is true, that is subset of all instances of $A$ and $B$ between which the interaction effectively exists. If the interaction is a physical interaction between molecules, the \glyph{outcome} represents the all possible complexes where interactors are really bound to each other, and in that case interaction is always considered as reversible. It is used as follow: ``when (or if) $A$ interacts with $B$ then \ldots''.\\[\baselineskip]
+An \glyph{interaction} (\sect{interaction}) linking the \glyph{interactors} $A$ and $B$ means: ``any instance of $A$ can interact with instances of $B$''. An \glyph{outcome} on an \glyph{interaction} represents the cases when the statement is true, that is subset of all instances of $A$ and $B$ between which the interaction effectively exists. If the interaction is a physical interaction between molecules, the \glyph{outcome} represents all possible complexes where interactors are really bound to each other, and in that case interaction is always considered as reversible. It is used as follow: ``when (or if) $A$ interacts with $B$ then \ldots''.\\[\baselineskip]
 
 \noindent
-An \glyph{assignment} (\sect{assignment}) linking a state variable value $v$ to a \glyph{state-variable} $V$ of an \glyph{entity} $E$ means: ``$v$ is assigned to $V$ of $E$'' or ``$V$ of $E$ takes the value $v$''. An \glyph{outcome} on an \glyph{assignment} represents the cases when the statement is true, that is all instances of $E$ (free or as a complex subunint) on which the variable effectively displays the value. It is used as follows: ``when (or if) $V$ of $E$ takes the value $v$ then \ldots'' or more succintly ``when (or if) $E\{V => v\}$ then \ldots''.\\[\baselineskip]
+An \glyph{assignment} (\sect{assignment}) linking a \glyph{variable value} $v$ to a \glyph{state variable} $V$ of an \glyph{entity} $E$ means: ``$v$ is assigned to $V$ of $E$'' or ``$V$ of $E$ takes the value $v$''. An \glyph{outcome} on an \glyph{assignment} represents the cases when the statement is true, that is all instances of $E$ (free or as a complex subunint) on which the variable effectively displays the value. It is used as follows: ``when (or if) $V$ of $E$ takes the value $v$ then \ldots'' or more succintly ``when (or if) $E\{V => v\}$ then \ldots''.\\[\baselineskip]
 
 \noindent
 A \glyph{phenotype} (\sect{phenotype}) $P$ means: ``$P$ exists''.\\[\baselineskip]
@@ -58,8 +58,8 @@ An \glyph{or} (\sect{or}) linking several \glyph{logic arcs} originating from \g
 \noindent
 A \glyph{not} (\sect{not}) linking a \glyph{logic arc} originating from an \glyph{entity node} $E$ and an influence $F$ means: `` $F$ takes place only if $E$ does not exist''.\\[\baselineskip]
 
-\noindent
-A \glyph{delay} (\sect{delay}) linking a \glyph{logic arc} originating from an \glyph{entity node} $E$ and an influence $F$ means: ``If $E$ exists then $F$ takes place, but not immediately''.\\[\baselineskip]
+%\noindent
+%A \glyph{delay} (\sect{delay}) linking a \glyph{logic arc} originating from an \glyph{entity node} $E$ and an influence $F$ means: ``If $E$ exists then $F$ takes place, but not immediately''.\\[\baselineskip]
 
 \subsection{Cis and trans relationships}\label{sec:cis-trans-semantics}
 
@@ -112,7 +112,7 @@ The assignment of a certain value to the variable \glyph{existence} of a contain
 
 \subsection{(In)Validation of ER maps}
 
-Based on the definitions above, it should be possible to use the toolkit of formal logic to analyse \ERs{}. In particular, one can envision to build truth tables describing the consequences of the existences of the various entities. Those table should point to inconsistencies leading to contradictory predicates.
+Based on the definitions above, it should be possible to use the toolkit of formal logic to analyse \ERs{}. In particular, one can envision to build truth tables describing the consequences of the existences of the various entities. Those tables should point to inconsistencies leading to contradictory predicates.
 
 % Give an example of a wrong ER map.
 

@@ -26,7 +26,7 @@ The syntax of SBGN \ERs can be defined in the form of an incidence matrix. This 
 \glyph{and}                   &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O \\ \hline 
 \glyph{or}                    &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O \\ \hline 
 \glyph{not}                   &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
-\glyph{delay}                 &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
+%\glyph{delay}                 &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
 \glyph{perturbing agent}      &          &          & I & I & I & I & I & I & I \\ \hline 
 \glyph{unit of information}   &          & IO       &   &   &   &   &   &   &   \\ \hline 
 \glyph{state variable}        & I(1)O(1) &          &   &   &   &   &   &   &   \\ \hline 
@@ -62,7 +62,7 @@ In addition to the incidence matrix, additional rules refine the syntax of \ERs.
 %\item A given \glyph{Influence} can only target one relationship. Influence arcs cannot be branched out.
 %\item There cannot be both an \glyph{absolute stimulation} and an \glyph{absolute inhibition} targeting the same statement.
 \item In the case of a non-binary interaction, the ``cis'' or ``trans'' \glyph{unit of information} must be carried by the circle representing the n-ary interaction, and not the arc connecting this circle and a given interactor.
-\item If an \glyph{influence} targeting an \glyph{interaction} carries a ``cis'' or ``trans'' unit of information, at least one of the \glyph{interactors} must be the same \glyph{entity} than the origin of the influence. 
+\item If an \glyph{influence} targeting an \glyph{interaction} carries a ``cis'' or ``trans'' unit of information, at least one of the \glyph{interactors} must be the same \glyph{entity} as the origin of the influence. 
 \item If more than one instance of an \glyph{entity} is involved in an \glyph{interaction}, a \glyph{unit of information} \glyph{cardinality} (\sect{miscellaneous-cv}) must be associated with each entity involved in the statement.
 \item A \glyph{cis} or \glyph{trans} unit of information can only be carried by a relationship involving a single \glyph{entity} directly or by traceable set of \glyph{outcomes}.
 \end{enumerate}  
