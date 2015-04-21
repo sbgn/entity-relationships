@@ -9,9 +9,9 @@
 Many biological entities such as molecules can exist in different \emph{states}, meaning different physical or informational configurations.  These states can arise for a variety of reasons.  For example, macromolecules can be subject to post-synthesis modifications, wherein residues of the macromolecules (amino acids, nucleosides, or glucid residues) are modified through covalent linkage to other chemicals.  Other examples of states are alternative conformations as in the closed/open/desensitized conformations of a transmembrane channel, and the active/inactive forms of an enzyme.
 
 SBGN provides a means of associating one or more \glyph{state variables} with an entity; each such variable can be used to represent a dimension along which the state of the overall entity can vary.  When an entity can exist in different states, the state of the instance of the entity % (\ie the SBGN object) 
-can be described by the current values of all its \glyph{state variables}, and the values of the \glyph{state variables} of all its possible components, recursively.
+can be described by the current values of all its \glyph{state variables}, and the values of the \glyph{state variables} of all its possible components (nested entities \sect{domain}), recursively.
 
-In \SBGNERLone, \glyph{state variables} are also used to describe the localisation in compartments (a transport is therefore described as a state variable assignment, see \sect{assignment}).
+In \SBGNERLone, \glyph{state variables} are also used to describe the localisation in compartments (a transport is therefore could be described as assignment of different values to the location state variable, see \sect{assignment}).
 
 \begin{glyphDescription}
 
@@ -32,7 +32,7 @@ In \SBGNERLone, \glyph{state variables} are also used to describe the localisati
   \label{fig:state-var}
 \end{figure}
 
-Two state variables are predefined. The variable \glyph{existence} is used to represent the creation or destruction of entities, as seen on \fig{ex-existence}\label{sec:existence}. \glyph{Existence} can take two values, true (T) or false (F). The variable is represented by a circle vertically divided in two. One hemicircle is black, and the other white. 
+Two state variables are predefined. The variable \glyph{existence} is used to represent the creation or destruction of instances of an entity, as seen on \fig{ex-existence}\label{sec:existence}. \glyph{Existence} can take two values, true (T) or false (F). The variable is represented by a circle vertically divided in two. One hemicircle is black, and the other white. 
 
 \begin{figure}[H]
   \centering
