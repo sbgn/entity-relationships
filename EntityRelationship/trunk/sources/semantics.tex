@@ -1,3 +1,4 @@
+% !TEX root = ../sbgn_ER-level1.tex
 %\color{red}
 \section{Semantic description of \ERs}
 
@@ -5,7 +6,7 @@
 
 \subsection{Entities and states}
 
-An \glyph{entity} (\sect{entity}) represents a set of individual instances of some kind (molecules, agents etc). The difference from \SBGNPDLone \glyph{entity pool node} is that \glyph{entity} instances are independent, while \glyph{entity pool node} form one nonseparable object acting as a whole. A set of \glyph{state variables} (\sect{stateVariable}) and their \glyph{values} (\sect{variableValue}) describe a part of the \glyph{entity} instances state space. The  \glyph{entity}, or  interaction \glyph{outcome} (\sect{outcome}) acquire the true state if the set of entity instances compatible with the \glyph{entity} state, or  actualisation of interaction is non-empty. 
+An \glyph{entity} (\sect{entity}) represents a set of individual instances of some kind (molecules, agents etc). The difference from \SBGNPDLone \glyph{entity pool node} is that \glyph{entity} instances are independent, while \glyph{entity pool node} form one inseparable object acting as a whole. A set of \glyph{state variables} (\sect{stateVariable}) and their \glyph{values} (\sect{variableValue}) describe a part of the \glyph{entity} instances state space. The  \glyph{entity}, or  interaction \glyph{outcome} (\sect{outcome}) acquire the true state if the set of entity instances compatible with the \glyph{entity} state, or  actualisation of interaction is non-empty. 
 
  
 \subsection{Statements}
@@ -109,6 +110,8 @@ The assignment of a certain value to the variable \glyph{existence} of a contain
   \caption{On the left, the entity Y causes the disappearance of the whole entity X, including its A and B components. On the right, only the entity A disappear, without effect on B and X as a whole.}
   \label{fig:nesting-existence}
 \end{figure}
+
+Outcome of an interaction that involves contained entities is defined along the same line as in \sect{outcome}: the outcome represents set of all possible instances of topmost containing entity has domains represented by contained entity involved in interaction.
 
 \subsection{(In)Validation of ER maps}
 
