@@ -7,6 +7,10 @@
 % Warning: more \usepackage commands are used later in this file.
 \usepackage{ifpdf}
 
+% loading package float before package hyperref avoids these warnings
+% "destination with the same identifier ... has been already used, duplicate ignored"
+\usepackage{float}
+
 \ifpdf
   % Case: using pdflatex
 
@@ -49,7 +53,7 @@
 \usepackage{array}
 \usepackage{fancybox}
 \usepackage{xspace}
-\usepackage{float}
+%\usepackage{float}
 \usepackage[american]{varioref}
 \usepackage[normalem]{ulem}
 \usepackage{eso-pic}                   
@@ -75,6 +79,11 @@
 %% ----------------------------------------------------------------------------
 %% Special customizations
 %% ----------------------------------------------------------------------------
+
+% this option avoids these warnings "PDF inclusion: multiple pdfs with page group included in a single page"
+% pdftex 1.40.15 and higher
+% see also https://tex.stackexchange.com/questions/183149/cant-silence-a-pdftex-pdf-inclusion-multiple-pdfs-with-page-group-error
+\pdfsuppresswarningpagegroup=1
 
 \makeatletter
 
