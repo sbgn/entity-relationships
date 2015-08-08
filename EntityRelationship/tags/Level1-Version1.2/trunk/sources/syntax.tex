@@ -1,0 +1,70 @@
+%\color{red}
+\section{Syntax}
+
+% I am not certain this matrix is suitable for ER. ERs are not bi-partite graphs.
+
+The syntax of SBGN \ERs can be defined in the form of an incidence matrix. This incidence matrix has symbols as rows and arcs as columns. Each element of the matrix represents the role of a symbol in connection to an arc. Input (I) means that the arc can begin on that symbol. Output (O) indicates that the arc can end on that symbol. Numbers in parenthesis represent the maximum number of arcs of a particular type to have this specific connection role with the node. No numbers means any number is allowed. Empty cells means the arc is not able to connect to the symbol. 
+
+\subsection{Interactor Nodes connectivity definition}  
+\begin{tabular}{||c|c|c|c|c|c|c|c|c|c||}
+\hline
+\hline
+\raisebox{20pt}{symbols $\backslash$ Arc } 
+& \vglyph{assignment} 
+& \vglyph{interaction} 
+& \vglyph{modulation} 
+& \vglyph{stimulation}
+& \vglyph{inhibition}
+& \vglyph{necessary stimulation}
+& \vglyph{absolute stimulation}
+& \vglyph{absolute inhibition}
+& \vglyph{logic arc}
+\\ \hline 
+
+\glyph{entity}                &          & IO       & I & I & I & I & I & I & I \\ \hline 
+\glyph{outcome}               &          & I(1)O(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) \\ \hline 
+\glyph{and}                   &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O \\ \hline 
+\glyph{or}                    &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O \\ \hline 
+\glyph{not}                   &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
+%\glyph{delay}                 &          &          & I(1) & I(1) & I(1) & I(1) & I(1) & I(1) & I(1)O(1) \\ \hline 
+\glyph{perturbing agent}      &          &          & I & I & I & I & I & I & I \\ \hline 
+\glyph{unit of information}   &          & IO       &   &   &   &   &   &   &   \\ \hline 
+\glyph{state variable}        & I(1)O(1) &          &   &   &   &   &   &   &   \\ \hline 
+%\glyph{domain}                &          & IO       &   &   &   &   &   &   &   \\ \hline 
+\glyph{modulation}            &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{stimulation}           &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{inhibition}            &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{necessary stimulation} &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{absolute stimulation}  &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{absolute inhibition}   &          &          &   & O & O & O & O & O &   \\ \hline 
+\glyph{assignment}            &          &          &   & O & O & O & O & O &    \\ \hline 
+\glyph{interaction}           &          &          &   & O & O & O & O & O &    \\ \hline 
+\glyph{phenotype}             &          &          &   & O & O & O & O & O &    \\ \hline 
+\hline
+\end{tabular}
+
+% Do-we need to define state variable value?
+
+\subsection{Syntactic rules}
+\label{sec:SyntacticRules}
+
+In addition to the incidence matrix, additional rules refine the syntax of \ERs.
+
+% For each rule we should draw what is forbidden and the correct version?
+
+\begin{enumerate}
+%\item There can be any number of \glyph{entities} with the same label (name). All of them represent the same concept, such as a molecular species. Those different \glyph{entities} do not have to carry the same \glyph{auxiliary units}, whether state variables, units of information or domains. The sum of all those entities represent the biological concept.
+% Create a figure like the one presented in Auckland. 
+%\item There can be any number of \glyph{perturbing agents} with the same label (name). All of them represent the same concept, such as a specific physical input. 
+%\item There can be any number of \glyph{phenotype} with the same label (name). All of them represent the same concept, producing identical readout.
+\item Name of the \glyph{state variable} should be unique within the \glyph{entity} definition.
+\item From an \glyph{outcome} can only originate one relationship, whether influence or interaction. The relationships being seen as independent rules, separate consequences of an assignment or an interaction have to originate from different outcomes, that is assertion of truth of this assignment or interaction.
+%\item A given \glyph{Influence} can only target one relationship. Influence arcs cannot be branched out.
+%\item There cannot be both an \glyph{absolute stimulation} and an \glyph{absolute inhibition} targeting the same statement.
+\item In the case of a non-binary interaction, the ``cis'' or ``trans'' \glyph{unit of information} must be carried by the circle representing the n-ary interaction, and not the arc connecting this circle and a given interactor.
+\item If an \glyph{influence} targeting an \glyph{interaction} carries a ``cis'' or ``trans'' unit of information, at least one of the \glyph{interactors} must be the same \glyph{entity} as the origin of the influence. 
+\item If more than one instance of an \glyph{entity} is involved in an \glyph{interaction}, a \glyph{unit of information} \glyph{cardinality} (\sect{miscellaneous-cv}) must be associated with each entity involved in the statement.
+\item A \glyph{cis} or \glyph{trans} unit of information can only be carried by a relationship involving an instances of a single \glyph{entity} directly or by traceable set of \glyph{outcomes}.
+\end{enumerate}  
+
+%\normalcolor

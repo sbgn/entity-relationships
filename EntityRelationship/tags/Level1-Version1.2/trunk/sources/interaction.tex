@@ -1,0 +1,39 @@
+% !TEX root = ../sbgn_ER-level1.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                    Interaction
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\color{blue}
+
+\subsubsection{Glyph: \glyph{Interaction}}\label{sec:interaction}
+
+\glyph{Interaction} represents an interaction between two or more \glyph{entities} or \glyph{outcomes}, whether a non-covalent physical interaction, or a functional interaction, e.g. genetic interaction. The interaction is represented by a circle which connects to arrows pointing to the interactors involved in the interaction. In the case of a binary interaction, the circle may be ommitted. The realisation of the interaction is represented by \glyph{outcomes} (see section \ref{sec:outcome}), that is by filled dots. These \glyph{outcomes} are located on the circle representing the interaction. In the case of a binary interaction represented without circle, the \glyph{outcomes} can be placed anywhere between the arrowheads. The realisations of an interaction can be represented by any number of \glyph{outcomes}. The \glyph{influences} (\ref{sec:influences}) targeting an interaction end up on the external side of the circle, between the \glyph{outcomes}.
+
+\begin{glyphDescription}
+ \glyphSboTerm SBO:0000342 molecular or genetic interaction
+ \glyphOrigin Any \glyph{interactor} (\sect{interactors}).
+ \glyphTarget Any \glyph{interactor} (\sect{interactors}).
+ \glyphEndPoint Both origin and target extremities of an \glyph{interaction} carry an harpoon arrowhead. The arrows pointing to the \glyph{interactors} originate from a circle. In the case of a binary interaction, the circle is optional. 
+\glyphAux A \glyph{unit of information} containing a \glyph{cardinality} (\sect{miscellaneous-cv}) indicates the number of instances of an entity involved in an interaction. The absence of a \glyph{cardinality} is synonymous of a cardinality of 1. A \glyph{unit of information} on a binary interaction involving only one entity, or outcomes of interactions involving one entity, carrying the mention \glyph{cis} or \glyph{trans} precises if the interaction is intra-molecular or between different instances of the same entity or complex.
+ \end{glyphDescription}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.3]{images/interaction}
+  \caption{The \ER glyph for \glyph{interaction}. Top left, binary interaction between two entities. The circle can be ommitted, and the \glyph{outcomes} located anywhere on the \glyph{interaction}. Bottom left, because the cardinality of the entity A is 2, the interaction is not a binary one, but a n-ary one. The circle cannot be ommitted. Bottom right, n-ary interaction with three different entities. Top right, intra-molecular interaction.}
+  \label{fig:interaction}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{examples/ex-interaction}
+  \caption{Examples of \glyph{interactions}, showing the effect of the binding of calmodulin to CaMKII (binary interaction) on the folding of the kinase (intra-molecular interaction), and the effect of the folding or the dimerisation of CaMKII (inter-molecular interaction between different instances of CaMKII) on the binding of calmodulin.}
+  \label{fig:ex-interaction}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{examples/ex-interaction-influences}
+  \caption{Examples of a binary \glyph{interaction} between CaMKII and calmodulin where the interaction is represented by a circle. Interaction between adjacent monomers of CaMKII (trans-interaction) preclude the binding of calmodulin, as represented by an \glyph{absolute inhibition} ending on the circle. The phosphorylation of threonine 306 also inhibits the interaction. The realisation of the interaction, represented by an \glyph{outcome} located on the circle, itself inhibits the phosphorylation of threonine 306.}
+  \label{fig:ex-interaction-influences}
+\end{figure}
+%\normalcolor
