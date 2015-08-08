@@ -1,0 +1,38 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                     necessary stimulation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\color{blue}
+
+\subsubsection{Glyph: \glyph{Necessary stimulation}}\label{sec:necessaryStimulation}
+
+A \glyph{necessary stimulation} is an influence that has to be present for a relationship to take place (to become true). A relationship modulated by a necessary stimulation can only exist when this stimulation is true, whatever are the other influences this relationship is subjected to.
+
+\begin{glyphDescription}
+ \glyphSboTerm SBO:0000171 ! necessary stimulation.
+ \glyphOrigin Any \glyph{entity node} (\sect{ENs}).
+ \glyphTarget Any \glyph{relationship} (\sect{relationships}).
+ \glyphEndPoint The target extremity of a \glyph{necessary stimulation} carries an open arrow (to remind that it is a \glyph{stimulation}) coming after a larger vertical bar.
+ \glyphAux A \glyph{unit of information} carrying the mention \glyph{cis} or \glyph{trans} precises the relationship between the \glyph{entity node} from which the \glyph{necessary stimulation} origins and either:
+\begin{itemize}
+\item the \glyph{entity node} from which the influence targeted by the \glyph{necessary stimulation} origins
+\item all the relevant \glyph{interactors} of the \glyph{interaction} targeted by the \glyph{necessary stimulation}
+\item the \glyph{entity} subjected to the \glyph{assignment} targeted by the \glyph{necessary stimulation}
+\end{itemize}
+
+ \end{glyphDescription}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{images/necessaryStimulation}
+  \caption{The \ER glyph for \glyph{necessary stimulation}.}
+  \label{fig:necessaryStimulation}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{examples/ex-necessaryStimulation}
+  \caption{This example shows how threonine 286 of CaMKII is only phosphorylated by the kinase itself, but in a trans-fashion, meaning a molecule of CaMKII does not phosphorylate itself, but another molecule of CaMKII.}
+  \label{fig:ex-necessaryStimulation}
+\end{figure}
+
+%\normalcolor
