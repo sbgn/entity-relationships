@@ -14,3 +14,24 @@ all default:
 	$(LATEX) $(MAIN).tex
 	$(BIBTEX) $(MAIN)
 	$(LATEX) $(MAIN).tex
+
+# Clean up temporary files
+clean:
+	rm -f *.aux
+	rm -f *.bbl
+	rm -f *.blg
+	rm -f *.log
+	rm -f *.lox
+	rm -f *.out
+	rm -f *.toc
+
+# Clean up temporary files and PDF output
+distclean:
+		rm -f *.aux
+		rm -f *.bbl
+		rm -f *.blg
+		rm -f *.log
+		rm -f *.lox
+		rm -f *.out
+		rm -f *.toc
+		rm -f *.pdf
