@@ -11,7 +11,7 @@
 
 \ExplSyntaxOn
 \ifbool{draft}{
-    \newcommand{\listmodificationname}{List of Modifications}
+    \newcommand{\listmodificationname}{List\; of\; Modifications}
     \newlistof{modification}{mod}{\listmodificationname}
 
     \def\old{\color{red!80!black}}
@@ -34,7 +34,7 @@
         \old-[#2]\new+[#3]
         \refstepcounter{modification}
         \label{mod:\themodification}
-        \addcontentsline{mod}{modification}{\protect\numberline{\thesection.\themodification} \hspace{1.0cm} #1}
+        \addcontentsline{mod}{modification}{\protect\numberline{\thesection.\themodification} \hspace{1.0cm} \old-[#2]\new+[#3]}
         \endgroup
     }
 
@@ -43,7 +43,7 @@
             \new+[#2]
             \refstepcounter{modification}
             \label{mod:\themodification}
-            \addcontentsline{mod}{modification}{\protect\numberline{\thesection.\themodification} \hspace{1.0cm} #1}
+            \addcontentsline{mod}{modification}{\protect\numberline{\thesection.\themodification} \hspace{1.0cm} \new+[#2]}
         \endgroup
     }
 
@@ -90,6 +90,7 @@
     \newcommand{\balaur}[1]{\todo[color=purple!30]{Irina: #1}}
     \newcommand{\borlinghaus}[1]{\todo[color=purple!30]{Hanna: #1}}
     \newcommand{\blinov}[1]{\todo[color=blue!30]{Michael: #1}}
+    \newcommand{\czauderna}[1]{\todo[color=orange!30]{Tobias: #1}}
 
 }{
     \newcommand{\mazein}[1]{}
@@ -103,6 +104,7 @@
     \newcommand{\balaur}[1]{}
     \newcommand{\borlinghaus}[1]{}
     \newcommand{\blinov}[1]{}
+    \newcommand{\czauderna}[1]{}
 }
 
 \ExplSyntaxOff
