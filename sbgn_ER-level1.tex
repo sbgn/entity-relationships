@@ -4,13 +4,20 @@
 
 \documentclass[11pt,oneside]{book}
 
+\usepackage[footnote,draft,silent,nomargin]{fixme}
+\usepackage{etoolbox}
 %% ----------------------------------------------------------------------------
 %% Layout customizations and macro definitions.
 %% ----------------------------------------------------------------------------
 
 \input{sources/latex-style}
 \input{sources/latex-macros}
-\usepackage[footnote,draft,silent,nomargin]{fixme}
+
+%For edition of the draft, set to true. Set to false for release
+\newbool{draft}
+\setbool{draft}{false}
+\input{sources/latex-draft}
+
 
 %% ----------------------------------------------------------------------------
 \begin{document}
