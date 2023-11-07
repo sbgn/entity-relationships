@@ -15,7 +15,7 @@
 
 %For edition of the draft, set to true. Set to false for release
 \newbool{draft}
-\setbool{draft}{false}
+\setbool{draft}{true}
 \input{sources/latex-draft}
 
 
@@ -24,6 +24,11 @@
 %% ----------------------------------------------------------------------------
 
 \frontmatter
+
+\ifbool{draft}{
+    \input{sources/draft_front_page}
+}{
+}
 
 \input{sources/front-page}
 %\input{sources/preface}
